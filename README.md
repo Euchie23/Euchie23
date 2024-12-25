@@ -2,17 +2,13 @@
 
 <a href="https://www.linkedin.com/in/euchiejnpierre/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-[Brief Introduction]
-
 As a recent graduate with a deep interest for data science, I am determined to solve sophisticated issues through analytical approaches.
 
 ## Objective
-[Provide Objective]
 
 With a foundation in interdisciplinary research, I have developed a keen enthusiasm for data science and am now eager to embark on a career in environmental consulting, where I can contribute to transformative and impactful projects
 
 ## Skills
-[Provide skills and associated project. Make sure to hyperlink the project]
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
