@@ -2,7 +2,9 @@
 
 <a href="https://www.linkedin.com/in/euchiejnpierre/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-As a recent graduate with a deep interest for data science, I am determined to solve sophisticated issues through analytical approaches.
+As a recent graduate with a deep interest for data science, I am determined to solve sophisticated issues through analytical approaches.  <img src="https://img.shields.io/badge/-Data%20Scientist-276DC3?&style=for-the-badge&logo=r&logoColor=white" />
+</a><img src="https://img.shields.io/badge/-Marine%20Ecology-0099cc?&style=for-the-badge&logo=fish&logoColor=white" />
+</a>
 
 ## Objective
 
@@ -12,12 +14,14 @@ With a foundation in interdisciplinary research, I have developed a keen enthusi
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+| Data Analytics                                | <a href="https://google.com">Detection Lab</a>|
+| Statistical Modelling                         | <a href="https://google.com">Detection Lab</a>|
+| Data Visualization tools                      | |
+| Programming Languages                         | |
+| Environmental Data Science                    | |
+| Data Collection and Preprocessing             | |
+| Interdisciplinary Collaboration               | |
+
   
 <h2>👨‍💻 Research Professional:</h2>
 
