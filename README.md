@@ -14,23 +14,24 @@ With a foundation in interdisciplinary research, I have developed a keen enthusi
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
-| Data Analytics                                | <a href="https://google.com">Detection Lab</a>|
-| Statistical Modelling                         | <a href="https://google.com">Detection Lab</a>|
-| Data Visualization tools                      | |
-| Programming Languages                         | |
-| Environmental Data Science                    | |
-| Data Collection and Preprocessing             | |
-| Interdisciplinary Collaboration               | |
+| Data Analytics                                | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
+| Statistical Modelling                         | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
+| Data Visualization tools                      | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
+| Programming Languages                         | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
+| Environmental Data Science                    | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
+| Data Collection and Preprocessing             | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
+| Interdisciplinary Collaboration               | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
 
   
-<h2>👨‍💻 Certifications:</h2>
+<h2>👨‍💻 Certificates:</h2>
 
-- <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
-  - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
+- <b>365 DataScience </b>
+  - [Introduction to Data Science](https://learn.365datascience.com/c/c29cb0b1cf/)
+  - [Statistics](https://learn.365datascience.com/c/c29cb0b1cf/)
 
-<h2>📺 Projects </h2>
+<h2>📺 Projects (More to come) </h2>
 
-- [How to get into Cybersecurity Starting From Zero](https://www.youtube.com/watch?v=a83ASGn_V_s)
+- [Squid Fest](https://github.com/Euchie23/Squid-Fest)
 
 <h2> 🤳 Connect with me:</h2>
 
