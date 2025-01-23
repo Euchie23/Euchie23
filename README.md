@@ -34,6 +34,5 @@ With a foundation in interdisciplinary research, I have developed a keen enthusi
 - [Squid Fest](https://github.com/Euchie23/Squid-Fest)
 
 <h2> 🤳 Connect with me:</h2>
-
 [Linkedin]: linkedin.com/in/euchiejnpierre
 
