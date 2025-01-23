@@ -30,10 +30,10 @@ With a foundation in interdisciplinary research, I have developed a keen enthusi
   - [Statistics](https://learn.365datascience.com/c/c29cb0b1cf/)
     
 - <b> The European Energy Centre </b>
-  - [Renewable Energy Expert Certificate]
-  - [Galileo Masters Certificate]
-    - [Energy Efficiency in Buildings Certificate]
-    - [Renewable Energy Management and Finance Certificate]
+  - Renewable Energy Expert Certificate
+  - Galileo Masters Certificate
+    - Energy Efficiency in Buildings Certificate
+    - Renewable Energy Management and Finance Certificate
 
 <h2>📺 Projects (More to come) </h2>
 
