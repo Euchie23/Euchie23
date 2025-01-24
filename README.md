@@ -25,7 +25,7 @@ With a foundation in interdisciplinary research, I have developed a keen enthusi
   
 <h2>👨‍💻 Certificates:</h2>
 
-- <b>365 DataScience </b>
+- <b>365 DataScience (In Progress) </b>
   - [Introduction to Data Science](https://learn.365datascience.com/c/c29cb0b1cf/)
   - [Statistics](https://learn.365datascience.com/c/c29cb0b1cf/)
     
