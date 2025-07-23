@@ -25,15 +25,18 @@ Environmental consulting • Renewable energy • Health analytics
 ---
 
 ## Skills
-- **Programming & Tools**: R, Python, SQL, tidyverse, ggplot2
-- **Data Science**: Statistical modeling, data cleaning, machine learning
-- **Visualization**: Shiny apps, ggplot2, dashboard building
+- **Data Engineering**: Data cleaning, Built ETL pipelines in R/Python, SQL-based structuring
+- **Programming & Tools**: R, Python, SQL, tidyverse, ggplot2, PostgreSQL, Bash, Git, Excel (VBA)
+- **Modelling**: GAMs, Tweedie GLMs, Population Dynamics Model, AutoML
+- **Geospatial Analytics**: NetCDF integration, Geospatial data fusion, PostGIS querying, QGIS mapping
+- **Visualization**: ggplot2, matplotlib, seaborn, plotly, dashboard building
+- **Dashboards**: Shiny, Streamlit; parameterized EDI/HQ tools for stakeholders
 - **Domain Expertise**: Marine ecology, pollution data analysis, bioindicator research, stock assessment
 - **Collaboration**: Interdisciplinary teamwork, scientific writing, reproducible workflows
 
 ---
 
-<h2>👨‍💻 Certificates:</h2>
+## 🧾Certificates:
 
 - <b>365 DataScience (In Progress) </b>
   - [Statistics](https://learn.365datascience.com/certificates/CC-AAD35FAB67/)
@@ -47,10 +50,15 @@ Environmental consulting • Renewable energy • Health analytics
     - Energy Efficiency in Buildings Certificate
     - Renewable Energy Management and Finance Certificate
 
-<h2>📺 Projects (More to come) </h2>
+---
+
+## 👩‍💻 Projects (More to come) 
 
 - [Foundation](https://euchie23.shinyapps.io/foundation/)
 
-<h2> 🤳 Connect with me:</h2>
+
+---
+
+## 🤳 Connect with me:
 - 📧 Email: euchie23@gmail.com <br>
 - 🔗 [LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)
