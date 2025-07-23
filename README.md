@@ -1,4 +1,4 @@
-<h1>Hi, I'm Euchie! 👋 <br><br>
+<h1>Hi, I'm Euchie! 👋 <a href="https://www.linkedin.com/in/euchiejnpierre/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a><br><br><br><br>
 
 > "A stitch in time saves nine.🌱"
 > > I believe that timely, data-informed action — for both human health and environmental sustainability — can prevent crises before they escalate.
@@ -8,7 +8,7 @@
 I'm a recent graduate experienced in applying **data science** to questions in **marine ecology**, **environmental sustainability**, and **pollution impact analysis**. My work includes studying pollutants in marine species as bioindicators, as well as estimating stock abundance to support ecological insights.  
 <img src="https://img.shields.io/badge/-Data%20Scientist-276DC3?&style=for-the-badge&logo=r&logoColor=white" />
 <img src="https://img.shields.io/badge/-Marine%20Ecology-0099cc?&style=for-the-badge&logo=fish&logoColor=white" />
-<a href="https://www.linkedin.com/in/euchiejnpierre/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a><br><br>
+
 
 
 ---
