@@ -45,6 +45,8 @@ Projects are currently stored and worked on in a private repo (Squid_Fest) — t
 ---
 
 ## Skills
+
+**Technical**
 - **Data Engineering**: Data cleaning, Built ETL pipelines in R/Python, SQL-based structuring
 - **Programming & Tools**: R, Python, SQL, tidyverse, ggplot2, PostgreSQL, Bash, Git, Excel (VBA)
 - **Modelling**: GAMs, Tweedie GLMs, Population Dynamics Model, AutoML
