@@ -28,10 +28,11 @@ Environmental consulting • Renewable energy • Health analytics
 - **Programming & Tools**: R, Python, SQL, tidyverse, ggplot2
 - **Data Science**: Statistical modeling, data cleaning, machine learning
 - **Visualization**: Shiny apps, ggplot2, dashboard building
-- **Domain Expertise**: Marine ecology, pollution data analysis, bioindicator research
+- **Domain Expertise**: Marine ecology, pollution data analysis, bioindicator research, stock assessment
 - **Collaboration**: Interdisciplinary teamwork, scientific writing, reproducible workflows
 
-  
+---
+
 <h2>👨‍💻 Certificates:</h2>
 
 - <b>365 DataScience (In Progress) </b>
