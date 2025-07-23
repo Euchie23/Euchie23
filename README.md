@@ -28,6 +28,11 @@ With a foundation in interdisciplinary research, I have developed a keen enthusi
 - <b>365 DataScience (In Progress) </b>
   - [Introduction to Data Science](https://learn.365datascience.com/c/c29cb0b1cf/)
   - [Statistics](https://learn.365datascience.com/c/c29cb0b1cf/)
+  - [Probability](https://learn.365datascience.com/certificates/CC-7AC508F7B9/)
+  - [Python Programmer Bootcamp](https://learn.365datascience.com/certificates/CC-35DE6E8ECC/)
+  - [Mathematics](https://learn.365datascience.com/certificates/CC-22DB26A5A1/)
+  - [SQL](https://learn.365datascience.com/certificates/CC-8A7C7EED63/)
+  - [Machine Learning in Python](https://learn.365datascience.com/certificates/CC-BA4E35B27D/)
     
 - <b> The European Energy Centre </b>
   - Renewable Energy Expert Certificate
