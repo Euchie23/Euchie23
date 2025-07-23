@@ -61,4 +61,4 @@ Environmental consulting • Renewable energy • Health analytics
 
 ## 🤳 Connect with me:
 - 📧 Email: euchie23@gmail.com <br>
-- 🔗 [LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)
+- 🔗 <a href="https://www.linkedin.com/in/euchiejnpierre/" target="_blank">LinkedIn</a>
