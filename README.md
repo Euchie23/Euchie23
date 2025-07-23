@@ -1,6 +1,6 @@
-<h1>Hello, I'm Euchie! 🌱 <br>
+<h1>Hi, I'm Euchie! 👋 <br><br>
 
-> "A stitch in time saves nine."
+> "A stitch in time saves nine.🌱"
 > > I believe that timely, data-informed action — for both human health and environmental sustainability — can prevent crises before they escalate.
 
 <a href="https://www.linkedin.com/in/euchiejnpierre/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a><br><br>
