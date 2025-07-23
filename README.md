@@ -25,16 +25,11 @@ Environmental consulting • Renewable energy • Health analytics
 ---
 
 ## Skills
-
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| Data Analytics                                | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
-| Statistical Modelling                         | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
-| Data Visualization tools                      | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
-| Programming Languages                         | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
-| Environmental Data Science                    | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
-| Data Collection and Preprocessing             | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
-| Interdisciplinary Collaboration               | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
+- **Programming & Tools**: R, Python, SQL, tidyverse, ggplot2
+- **Data Science**: Statistical modeling, data cleaning, machine learning
+- **Visualization**: Shiny apps, ggplot2, dashboard building
+- **Domain Expertise**: Marine ecology, pollution data analysis, bioindicator research
+- **Collaboration**: Interdisciplinary teamwork, scientific writing, reproducible workflows
 
   
 <h2>👨‍💻 Certificates:</h2>
@@ -53,7 +48,7 @@ Environmental consulting • Renewable energy • Health analytics
 
 <h2>📺 Projects (More to come) </h2>
 
-- [Foundation](https://github.com/Euchie23/SquidStack/tree/main/Foundation)
+- [Foundation](https://euchie23.shinyapps.io/foundation/)
 
 <h2> 🤳 Connect with me:</h2>
 - 📧 Email: euchie23@gmail.com <br>
