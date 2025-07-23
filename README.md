@@ -53,7 +53,7 @@ Environmental consulting • Renewable energy • Health analytics
 
 <h2>📺 Projects (More to come) </h2>
 
-- [SquidStack](https://github.com/Euchie23/SquidStack)
+- [Foundation](https://github.com/Euchie23/SquidStack/Foundation)
 
 <h2> 🤳 Connect with me:</h2>
 [LinkedIn Profile](https://www.linkedin.com/in/euchiejnpierre/)
