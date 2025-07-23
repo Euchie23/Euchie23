@@ -22,6 +22,17 @@ Use data-driven solutions to improve the health of people and the planet
 ## 🌍 Interests  
 Environmental consulting • Renewable energy • Health analytics
 
+
+
+---
+
+## 👩‍💻 Projects
+
+**<a href="https://github.com/Euchie23/SquidStack/" target="_blank">SquidStack</a> — Applied Data Science Projects from Masters Thesis** 
+  - [Foundation](https://euchie23.shinyapps.io/foundation/)
+
+
+
 ---
 
 ## Skills
@@ -49,13 +60,6 @@ Environmental consulting • Renewable energy • Health analytics
   - Galileo Masters Certificate
     - Energy Efficiency in Buildings Certificate
     - Renewable Energy Management and Finance Certificate
-
----
-
-## 👩‍💻 Projects (More to come) 
-
-- [Foundation](https://euchie23.shinyapps.io/foundation/)
-
 
 ---
 
