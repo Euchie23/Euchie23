@@ -29,7 +29,7 @@ Environmental consulting • Renewable energy • Health analytics
 ## 👩‍💻 Projects
 
 Projects are currently stored in a private repo (Squid_Fest) — to be curated into public collections (SquidStack, SquidStock, and GeoTentacles). <br><br>
-**<a href="https://github.com/Euchie23/SquidStack/" target="_blank">SquidStack</a> — Applied Data Science Projects from Masters Thesis**
+**<a href="https://github.com/Euchie23/SquidStack/" target="_blank">SquidStack</a> — Applied Data Science Projects from Masters Thesis** <br>
 A collection of modular analytics and dashboards covering topics such as:
   - [Foundation](https://euchie23.shinyapps.io/foundation/) - Intro/methods and validation workflows
   - Exploration(*Coming soon*) - Data mining and detection summaries visualization and intepretation
