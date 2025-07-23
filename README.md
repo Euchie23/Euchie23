@@ -1,14 +1,26 @@
-<h1>Hello, I'm Euchie! 
+<h1>Hello, I'm Euchie! 🌱
+
+> "A stitch in time saves nine."
+> > I believe that timely, data-informed action — for both human health and environmental sustainability — can prevent crises before they escalate.
 
 <a href="https://www.linkedin.com/in/euchiejnpierre/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-As a recent graduate with a deep interest for data science, I am determined to solve sophisticated issues through analytical approaches.  <img src="https://img.shields.io/badge/-Data%20Scientist-276DC3?&style=for-the-badge&logo=r&logoColor=white" />
-</a><img src="https://img.shields.io/badge/-Marine%20Ecology-0099cc?&style=for-the-badge&logo=fish&logoColor=white" />
-</a>
+I'm a recent graduate experienced in applying **data science** to questions in **marine ecology**, **environmental sustainability**, and **pollution impact analysis**. My work includes studying pollutants in marine species as bioindicators, as well as estimating stock abundance to support ecological insights.  
+<img src="https://img.shields.io/badge/-Data%20Scientist-276DC3?&style=for-the-badge&logo=r&logoColor=white" />
+<img src="https://img.shields.io/badge/-Marine%20Ecology-0099cc?&style=for-the-badge&logo=fish&logoColor=white" />
 
-## Objective
+---
 
-With a foundation in interdisciplinary research, I have developed a keen enthusiasm for data science and am now eager to embark on a career in environmental consulting, where I can contribute to transformative and impactful projects
+## 🎓 Background  
+Marine Environmental Science + Data Science  
+
+## 💡 Objective  
+Use data-driven solutions to improve the health of people and the planet  
+
+## 🌍 Interests  
+Environmental consulting • Renewable energy • Health analytics
+
+---
 
 ## Skills
 
@@ -26,11 +38,8 @@ With a foundation in interdisciplinary research, I have developed a keen enthusi
 <h2>👨‍💻 Certificates:</h2>
 
 - <b>365 DataScience (In Progress) </b>
-  - [Introduction to Data Science](https://learn.365datascience.com/c/c29cb0b1cf/)
   - [Statistics](https://learn.365datascience.com/certificates/CC-AAD35FAB67/)
-  - [Probability](https://learn.365datascience.com/certificates/CC-7AC508F7B9/)
-  - [Python Programmer Bootcamp](https://learn.365datascience.com/certificates/CC-35DE6E8ECC/)
-  - [Mathematics](https://learn.365datascience.com/certificates/CC-22DB26A5A1/)
+  - [Python](https://learn.365datascience.com/certificates/CC-35DE6E8ECC/)
   - [SQL](https://learn.365datascience.com/certificates/CC-8A7C7EED63/)
   - [Machine Learning in Python](https://learn.365datascience.com/certificates/CC-BA4E35B27D/)
     
@@ -42,8 +51,8 @@ With a foundation in interdisciplinary research, I have developed a keen enthusi
 
 <h2>📺 Projects (More to come) </h2>
 
-- [Squid Fest](https://github.com/Euchie23/Squid-Fest)
+- [SquidStack](https://github.com/Euchie23/SquidStack)
 
 <h2> 🤳 Connect with me:</h2>
-[Linkedin]: linkedin.com/in/euchiejnpierre
+[LinkedIn Profile](https://www.linkedin.com/in/euchiejnpierre/)
 
