@@ -40,7 +40,7 @@ The projects are currently stored and worked on in a private repo (Squid_Fest), 
   Stock assessment models using CPUE standardization, AutoML, and biomass forecasting under climate scenarios. Interactive dashboards to follow. <br><br>
 
 **GeoTentacles** *(Coming Soon)*  
-  Spatial analytics for marine species using PostgreSQL, PostGIS, and QGIS. Focused on distribution mapping and conservation planning.
+  Spatial analytics for marine species using PostgreSQL, PostGIS, and QGIS. Focused on distribution mapping and conservation planning. Dashboards to follow.
 
 ---
 
