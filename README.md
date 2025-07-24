@@ -53,9 +53,22 @@ Projects are currently stored and worked on in a private repo (Squid_Fest) — t
 - **Geospatial Analytics**: NetCDF integration, Geospatial data fusion, PostGIS querying, QGIS mapping
 - **Visualization**: ggplot2, matplotlib, seaborn, plotly, dashboard building
 - **Dashboards**: Shiny, Streamlit; parameterized EDI/HQ tools for stakeholders
-- **Domain Expertise**: Marine ecology, pollution data analysis, bioindicator research, stock assessment
-- **Collaboration**: Interdisciplinary teamwork, scientific writing, reproducible workflows
 
+**Domain Specific** 
+- **Environmental data analysis**: Master’s thesis, SquidStack dashboards, QGIS, R/Python workflows
+- **Analytical chemistry sample prep (ICP-MS)**: Sample prep, calibration, instrument operation, lab experience
+- **Pollution risk modeling**: Risk Evaluation dashboard, EDI/HQ tools, health exposure
+- **Marine ecology & stock assessment**: SquidStock, CPUE modeling, biomass forecasting
+- **Bioindicator data interpretation**: Squid tissue contaminant analysis, thesis core
+- **Ecological modeling**: GAMs, GLMs, for resource management, fisheries science, or marine population dynamics.
+
+**Soft**  
+- **Cross-Team Collaboration**: Analytical Chemists, lab technicians, Marine Ecologists, Fishries Scientists and Statisticians
+- **Scientific communication**: Well-written READMEs, Dashboards and clearly explained methodology and results
+- **Attention to detail**: Clean documentation, modular code, commented scripts
+- **Problem-Solving**: Dealing with incomplete, Messy, Noisy and incosistent data as well as bugs and equation fixing 
+- **Project ownership**: Roadmap, version control, organized folders
+- **Reproducibility**: RMarkdowns/Jupyter notebooks, clear setup instructions, parameterized code
 ---
 
 ## 🧾Certificates:
