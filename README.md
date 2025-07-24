@@ -63,7 +63,7 @@ The projects are currently stored and worked on in a private repo (Squid_Fest), 
 - **Ecological modeling**: GAMs, GLMs, for resource management, fisheries science, or marine population dynamics.
 
 **Soft**  
-- **Cross-Team Collaboration**: Analytical Chemists, lab technicians, Marine Ecologists, Fishries Scientists and Statisticians
+- **Cross-Team Collaboration**: Analytical Chemists, lab technicians, Marine Ecologists, Fisheries Scientists and Statisticians
 - **Scientific communication**: Well-written READMEs, Dashboards and clearly explained methodology and results
 - **Attention to detail**: Clean documentation, modular code, commented scripts
 - **Problem-Solving**: Dealing with incomplete, Messy, Noisy and incosistent data as well as bugs and equation fixing 
