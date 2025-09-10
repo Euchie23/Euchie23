@@ -88,5 +88,5 @@ The projects are currently stored and worked on in a private repo (Squid_Fest), 
 ---
 
 ## 🤳 Connect with me:
-- 📧 Email: euchie23@gmail.com <br>
+- 📧 Email: euchiejnpierre@gmail.com <br>
 - 🔗 <a href="https://www.linkedin.com/in/euchiejnpierre/" target="_blank">LinkedIn</a>
