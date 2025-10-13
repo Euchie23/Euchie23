@@ -31,7 +31,7 @@ Environmental consulting • Renewable energy • Health analytics
 The projects are currently stored and worked on in a private repo (Squid_Fest), then curated into public repositories (SquidStack, SquidStock, and GeoTentacles). Active development and version control take place in the private repository (Squid_fest) to allow for faster iteration and maintainability. The squid_Fest repo includes additional modules, in-progress work and full codebase for all the dashboards that may not yet be stable or documented. <br> 📬 Feel free to contact me if you're interested in collaborating or reviewing the private repository.<br><br>
 **<a href="https://github.com/Euchie23/SquidStack/" target="_blank">SquidStack</a> — Interactive Dashboards for Marine Pollution & Risk Analysis** <br>
 - A collection of modular analytics and dashboards revealing the thesis progression:
-  - [🧱 Foundation](https://euchie23.shinyapps.io/foundation/) - Intro/methods and validation workflows. [Click here for README](https://github.com/Euchie23/SquidStack/tree/main/Foundation)
+  - 🧱 [Foundation](https://euchie23.shinyapps.io/foundation/) - Intro/methods and validation workflows. [Click here for README](https://github.com/Euchie23/SquidStack/tree/main/Foundation)
   - 🧪 [Exploration](https://euchie23.shinyapps.io/exploration/) - Data mining and detection summaries visualization and intepretation. [Click here for README](https://github.com/Euchie23/SquidStack/tree/main/Exploration)
   - 📈 [Fluctuations](https://euchie23.shinyapps.io/fluctuation/) - Temporal trends and seasonal patterns based on industrial activities. [Click here for README](https://github.com/Euchie23/SquidStack/tree/main/Fluctuations)
   - ⚠️ Risk Evaluation(*Coming soon*) - Human health risk modeling and interpretation for Argentina and Taiwan<br><br>
@@ -39,6 +39,8 @@ The projects are currently stored and worked on in a private repo (Squid_Fest), 
 **<a href="https://github.com/Euchie23/SquidStock/" target="_blank">SquidStock</a> - Long‑Term Catch Analytics & Predictive Models for Sustainable Fisheries** <br>
 
 - A collection of notebooks and streamlit apps that illustrate stock assessment models using CPUE standardization, AutoML, and biomass forecasting under climate scenarios. Interactive dashboards to follow. <br><br>
+
+
 
 **<a href="https://github.com/Euchie23/GeoTentacles/" target="_blank">GeoTentacles</a> - Geospatial Insights & Analytics for Marine Biodiversity & Habitat Planning** <br>
 
