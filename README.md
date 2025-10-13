@@ -33,12 +33,12 @@ The projects are currently stored and worked on in a private repo (Squid_Fest), 
 - A collection of modular analytics and dashboards revealing the thesis progression:
   - [🧱 Foundation](https://euchie23.shinyapps.io/foundation/) - Intro/methods and validation workflows. [Click here for README](https://github.com/Euchie23/SquidStack/tree/main/Foundation)
   - 🧪 [Exploration](https://euchie23.shinyapps.io/exploration/) - Data mining and detection summaries visualization and intepretation. [Click here for README](https://github.com/Euchie23/SquidStack/tree/main/Exploration)
-  - 📈 [**Fluctuations**](https://euchie23.shinyapps.io/fluctuation/) - Temporal trends and seasonal patterns based on industrial activities. [Click here for README](https://github.com/Euchie23/SquidStack/tree/main/Fluctuations)
+  - 📈 [Fluctuations](https://euchie23.shinyapps.io/fluctuation/) - Temporal trends and seasonal patterns based on industrial activities. [Click here for README](https://github.com/Euchie23/SquidStack/tree/main/Fluctuations)
   - ⚠️ Risk Evaluation(*Coming soon*) - Human health risk modeling and interpretation for Argentina and Taiwan<br><br>
   
 **<a href="https://github.com/Euchie23/SquidStock/" target="_blank">SquidStock</a> - Long‑Term Catch Analytics & Predictive Models for Sustainable Fisheries** <br>
 
-  Stock assessment models using CPUE standardization, AutoML, and biomass forecasting under climate scenarios. Interactive dashboards to follow. <br><br>
+- A collection of notebooks and streamlit apps that illustrate stock assessment models using CPUE standardization, AutoML, and biomass forecasting under climate scenarios. Interactive dashboards to follow. <br><br>
 
 **<a href="https://github.com/Euchie23/GeoTentacles/" target="_blank">GeoTentacles</a> - Geospatial Insights & Analytics for Marine Biodiversity & Habitat Planning** <br>
 
