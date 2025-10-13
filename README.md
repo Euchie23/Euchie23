@@ -39,7 +39,7 @@ The projects are currently stored and worked on in a private repo (Squid_Fest), 
 **<a href="https://github.com/Euchie23/SquidStock/" target="_blank">SquidStock</a> - Long‑Term Catch Analytics & Predictive Models for Sustainable Fisheries** <br>
 
 - A collection of notebooks and streamlit apps that illustrate stock assessment models using CPUE standardization, AutoML, and biomass forecasting under climate scenarios. Interactive dashboards to follow. <br><br>
-  - 📈 Time-series of squid catch (CPUE) across years, with environmental summaries and trend indicators. [Click here for README](https://github.com/Euchie23/SquidStock/tree/main/Temporal_CPUE_Analysis)
+  - 📈 Time-series of squid catch (CPUE) across years, with environmental summaries and trend indicators. [Click here for README](https://github.com/Euchie23/SquidStock/tree/main/notebooks/Temporal_CPUE_Analysis)
 
 
 **<a href="https://github.com/Euchie23/GeoTentacles/" target="_blank">GeoTentacles</a> - Geospatial Insights & Analytics for Marine Biodiversity & Habitat Planning** <br>
