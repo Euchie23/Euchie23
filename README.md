@@ -37,9 +37,10 @@ The projects are currently stored and worked on in a private repo (Squid_Fest), 
   - ⚠️ Risk Evaluation(*Coming soon*) - Human health risk modeling and interpretation for Argentina and Taiwan<br><br>
   
 **<a href="https://github.com/Euchie23/SquidStock/" target="_blank">SquidStock</a> - Long‑Term Catch Analytics & Predictive Models for Sustainable Fisheries** <br>
-- A collection of notebooks and streamlit apps that illustrate stock assessment models using CPUE standardization, AutoML, and biomass forecasting under climate scenarios. Interactive dashboards to follow. <br><br>
-  - 📈 [Temporal CPUE Analysis](https://github.com/Euchie23/SquidStock/blob/main/notebooks/Temporal_CPUE_Analysis/Temporal_CPUE_Analysis.ipynb) Time-series of squid catch (CPUE) across years, with environmental summaries and trend indicators. [Click here for README](https://github.com/Euchie23/SquidStock/tree/main/notebooks/Temporal_CPUE_Analysis)
-
+- A collection of notebooks and streamlit apps that illustrate stock assessment models using CPUE standardization, AutoML, and biomass forecasting under climate scenarios. Interactive dashboards to follow. 
+  - 📈 [Temporal CPUE Analysis](https://github.com/Euchie23/SquidStock/blob/main/notebooks/Temporal_CPUE_Analysis/Temporal_CPUE_Analysis.ipynb) - Time-series of squid catch (CPUE) across years, with environmental summaries and trend indicators. [Click here for README](https://github.com/Euchie23/SquidStock/tree/main/notebooks/Temporal_CPUE_Analysis)
+  
+<br><br>
 
 **<a href="https://github.com/Euchie23/GeoTentacles/" target="_blank">GeoTentacles</a> - Geospatial Insights & Analytics for Marine Biodiversity & Habitat Planning** <br>
 
