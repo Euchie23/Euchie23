@@ -39,7 +39,7 @@ The projects are currently stored and worked on in a private repo (Squid_Fest), 
 **<a href="https://github.com/Euchie23/SquidStock/" target="_blank">SquidStock</a> - Long‑Term Catch Analytics & Predictive Models for Sustainable Fisheries** <br>
 - A collection of notebooks and streamlit apps that illustrate stock assessment models using CPUE standardization, AutoML, and biomass forecasting under climate scenarios. Interactive dashboards to follow. 
   - 📈 [Temporal CPUE Analysis](https://github.com/Euchie23/SquidStock/blob/main/notebooks/Temporal_CPUE_Analysis/Temporal_CPUE_Analysis.ipynb) - Time-series of squid catch (CPUE) across years, with environmental summaries and trend indicators. [Click here for README](https://github.com/Euchie23/SquidStock/tree/main/notebooks/Temporal_CPUE_Analysis)
-  - 📊 [CPUE Standardization & Prediction](https://github.com/Euchie23/SquidStock/blob/main/notebooks/CPUE_Standardization_Prediction/CPUE_Standardization_&_Prediction.ipynb) - Standardized CPUE using GAMs and Tweedie regressors, with predictive modeling for future biomass trends. Includes model diagnostics and visualization of environmental drivers. [Click here for README](https://github.com/Euchie23/SquidStock/tree/main/notebooks/CPUE_Standardization_&_Prediction)
+  - 📊 [CPUE Standardization & Prediction](https://github.com/Euchie23/SquidStock/blob/main/notebooks/CPUE_Standardization_&_Prediction/CPUE_Standardization_&_Prediction.ipynb) - Standardized CPUE using GAMs and Tweedie regressors, with predictive modeling for future biomass trends. Includes model diagnostics and visualization of environmental drivers. [Click here for README](https://github.com/Euchie23/SquidStock/tree/main/notebooks/CPUE_Standardization_&_Prediction)
 
   
 <br><br>
