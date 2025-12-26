@@ -52,7 +52,7 @@ The projects are currently stored and worked on in a private repo (Squid_Fest), 
   - 🗺️ **Charting the Currents — 20-Year Squid Catch Hotspot Dynamics**  
 Explores long-term squid catch hotspots (2000–2020) using PostGIS clustering, spatial grids, and density maps. Supports **conservation planning** and **risk-aware survey prioritization** for fisheries managers, marine ecologists, and environmental groups. [Click here for README](https://github.com/Euchie23/GeoTentacles/tree/main/hotspot_dynamics)
   - 🦑 **Forecasting the Swarms — Squid Catch Hotspot Prediction**  
-Predicts likely future squid catch hotspots using Random Forest classification on environmental and historical catch data. Provides **probabilistic maps** to enable **risk-aware decision-making** and guide proactive conservation and survey allocation.
+Predicts likely future squid catch hotspots using Random Forest classification on environmental and historical catch data. Provides **probabilistic maps** to enable **risk-aware decision-making** and guide proactive conservation and survey allocation. <br>
 [Click here for README](https://github.com/Euchie23/GeoTentacles/tree/main/hotspot_predictions)
  
 
