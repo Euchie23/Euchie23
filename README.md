@@ -48,7 +48,12 @@ The projects are currently stored and worked on in a private repo (Squid_Fest), 
 
 **<a href="https://github.com/Euchie23/GeoTentacles/" target="_blank">GeoTentacles</a> - Geospatial Insights & Analytics for Marine Biodiversity & Habitat Planning** <br>
 
-  Spatial analytics for marine species using PostgreSQL, PostGIS, and QGIS. Focused on distribution mapping and conservation planning. Dashboards to follow.
+- A collection of PostGIS scripts, QGIS layers, geospatial notebooks, and ML pipelines that illustrate spatial analysis of marine species, catch hotspots, and environmental layers. Interactive dashboards are planned for risk-aware decision support and conservation planning. Key projects include:
+  - 🗺️ **Charting the Currents — 20-Year Squid Catch Hotspot Dynamics**  
+Explores long-term squid catch hotspots (2000–2020) using PostGIS clustering, spatial grids, and density maps. Supports **conservation planning** and **risk-aware survey prioritization** for fisheries managers, marine ecologists, and environmental groups. [Click here for README]
+  - 🦑 **Forecasting the Swarms — Squid Catch Hotspot Prediction**  
+Predicts likely future squid catch hotspots using Random Forest classification on environmental and historical catch data. Provides **probabilistic maps** to enable **risk-aware decision-making** and guide proactive conservation and survey allocation. [Click here for README]
+ 
 
 ---
 
