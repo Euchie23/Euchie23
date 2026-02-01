@@ -7,12 +7,14 @@ I'm an **interdisciplinary environmental scientist and applied data practitioner
 My work sits at the intersection of **environmental science, spatial analytics, and applied risk intelligence**, with a focus on **monitoring, prioritization, and prevention**.<br><br>
 <img src="https://img.shields.io/badge/-Data%20Scientist-276DC3?&style=for-the-badge&logo=r&logoColor=white" />
 <img src="https://img.shields.io/badge/-Marine%20Ecology-0099cc?&style=for-the-badge&logo=fish&logoColor=white" />
+<img src="https://img.shields.io/badge/-Business%20Background-0072b1?&style=for-the-badge&logo=briefcase&logoColor=white" />
 
 ---
 
 ## 🎓 Background
 **Marine Environmental Science + Applied Data Science**  
 MSc Biodiversity — National Taiwan University (Taiwan)  
+Originally trained in business, bringing operational insight and analytical rigor to environmental data and decision-support work.  
 Currently based in **Saint Lucia**
 
 ---
@@ -49,7 +51,8 @@ Interactive **R Shiny dashboards** translating marine pollution data into **risk
 - 🧱 [Foundation](https://euchie23.shinyapps.io/foundation/) 
 - 🧪 [Exploration](https://euchie23.shinyapps.io/exploration/) 
 - 📈 [Fluctuations](https://euchie23.shinyapps.io/fluctuation/) 
-- ⚠️ [Risk Evaluation](https://euchie23.shinyapps.io/risk_evaluation/) 
+- ⚠️ [Risk Evaluation](https://euchie23.shinyapps.io/risk_evaluation/)
+  
 ---
 
 ### 📈 SquidStock
