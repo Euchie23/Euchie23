@@ -146,7 +146,7 @@ erDiagram
     OBSERVATION }o--|| INCIDENT : informs
 ```
 
-📘 Full schema, logic & design rules *(to be added later)*
+*📘 Full schema, logic & design rules* *(to be added later)*
 
 ---
 
