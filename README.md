@@ -3,7 +3,7 @@
 > *“A stitch in time saves nine.”*  
 > I build **risk-aware, decision-support tools** that turn complex environmental, spatial, and safety data into **early warnings and defensible insights**.
 
-I'm an **interdisciplinary environmental scientist and applied data practitioner** with academic training in Asia and hands-on exposure to **regulated industrial environments**.  
+I'm an **interdisciplinary environmental scientist and applied data practitioner** with academic training in Asia and hands-on exposure to **regulated industrial environments**.<br>  
 My work sits at the intersection of **environmental science, spatial analytics, and applied risk intelligence**, with a focus on **monitoring, prioritization, and prevention**.<br><br>
 <img src="https://img.shields.io/badge/-Data%20Scientist-276DC3?&style=for-the-badge&logo=r&logoColor=white" />
 <img src="https://img.shields.io/badge/-Marine%20Ecology-0099cc?&style=for-the-badge&logo=fish&logoColor=white" />
