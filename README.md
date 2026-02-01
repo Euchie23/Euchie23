@@ -1,106 +1,163 @@
-<h1>Hi, I'm Euchie! 👋 <a href="https://www.linkedin.com/in/euchiejnpierre/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a><br><br>
+# Hi, I’m Euchie 👋🌱
 
-> "A stitch in time saves nine.🌱"
-> > I believe that timely, data-informed action — for both human health and environmental sustainability — can prevent crises before they escalate.<br><br>
+> *“A stitch in time saves nine.”*  
+> I build **risk-aware, decision-support tools** that turn complex environmental, spatial, and safety data into **early warnings and defensible insights**.
 
-
-
-I'm a recent graduate experienced in applying **data science** to questions in **marine ecology**, **environmental sustainability**, and **pollution impact analysis**. My work includes studying pollutants in marine species as bioindicators, as well as estimating stock abundance to support ecological insights.  
+I'm a Caribbean-born **environmental scientist and applied data practitioner** with academic training in Asia and hands-on exposure to **regulated industrial environments**.  
+My work sits at the intersection of **environmental science, spatial analytics, and applied risk intelligence**, with a focus on **monitoring, prioritization, and prevention**.
 <img src="https://img.shields.io/badge/-Data%20Scientist-276DC3?&style=for-the-badge&logo=r&logoColor=white" />
 <img src="https://img.shields.io/badge/-Marine%20Ecology-0099cc?&style=for-the-badge&logo=fish&logoColor=white" />
 
+---
 
+## 🎓 Background
+**Marine Environmental Science + Applied Data Science**  
+MSc Biodiversity — National Taiwan University (Taiwan)  
+Currently based in **Saint Lucia**
 
 ---
 
-## 🎓 Background  
-Marine Environmental Science + Data Science  
+## 💡 What I Do
+I design **decision tools**, not just analyses.
 
-## 💡 Objective  
-Use data-driven solutions to improve the health of people and the planet  
+That means:
+- validating data before interpreting it
+- making uncertainty explicit
+- translating outputs into **screening-level intelligence** people can actually use
 
-## 🌍 Interests  
-Environmental consulting • Renewable energy • Health analytics
-
-
-
----
-
-## 👩‍💻 Projects
-
-The projects are currently stored and worked on in a private repo (Squid_Fest), then curated into public repositories (SquidStack, SquidStock, and GeoTentacles). Active development and version control take place in the private repository (Squid_fest) to allow for faster iteration and maintainability. The squid_Fest repo includes additional modules, in-progress work and full codebase for all the dashboards that may not yet be stable or documented. <br> 📬 Feel free to contact me if you're interested in collaborating or reviewing the private repository.<br><br>
-**<a href="https://github.com/Euchie23/SquidStack/" target="_blank">SquidStack</a> — Interactive Dashboards *(using R Shiny)* for Marine Pollution & Risk Analysis** <br>
-- A collection of modular analytics and dashboards revealing my research progression:
-  - 🧱 [Foundation](https://euchie23.shinyapps.io/foundation/) - Intro/methods & validation workflows → *ensures confidence in early monitoring and trend detection.* [Click here for README](https://github.com/Euchie23/SquidStack/tree/main/Foundation)
-  - 🧪 [Exploration](https://euchie23.shinyapps.io/exploration/) - Data mining & detection summaries → *identifies patterns, guiding prioritization of interventions.* [Click here for README](https://github.com/Euchie23/SquidStack/tree/main/Exploration)
-  - 📈 [Fluctuations](https://euchie23.shinyapps.io/fluctuation/) - Temporal trends & seasonal patterns → *supports timing of monitoring, evaluation of economic impacts, and COVID-related reprieves.* [Click here for README](https://github.com/Euchie23/SquidStack/tree/main/Fluctuations)
-  - ⚠️ [Risk Evaluation](https://euchie23.shinyapps.io/risk_evaluation/) - Human health risk modeling → *translates data into actionable recommendations for regulators and ESG teams.* [Click here for README](https://github.com/Euchie23/SquidStack/tree/main/Risk_Evaluation) <br><br>
-  
-**<a href="https://github.com/Euchie23/SquidStock/" target="_blank">SquidStock</a> - Long‑Term Catch Analytics & Predictive Models for Sustainable Fisheries** <br>
-- A collection of notebooks and streamlit apps that illustrate stock assessment models using CPUE standardization, predictive catch models using AutoML, and biomass forecasting under climate scenarios. Interactive dashboards include: 
-  - 📈 [Temporal CPUE Analysis](https://github.com/Euchie23/SquidStock/blob/main/notebooks/Temporal_Catch_Analysis/Temporal_Catch_Analysis.ipynb) - Explores historical CPUE trends and environmental drivers, highlighting seasonal and interannual variability. Enables fisheries managers to detect stock stress, allocate effort strategically, and understand long-term population dynamics. [Click here for README](https://github.com/Euchie23/SquidStock/tree/main/notebooks/Temporal_Catch_Analysis)
-  - 📊 [CPUE Standardization & Prediction](https://github.com/Euchie23/SquidStock/blob/main/notebooks/CPUE_Standardization_&_Prediction/CPUE_Standardization_&_Prediction.ipynb) - Applies GAMs and Tweedie regressors to normalize CPUE, separating ecological signal from operational noise. Supports short-term forecasting and provides interpretable model diagnostics for informed decision-making. [Click here for README](https://github.com/Euchie23/SquidStock/tree/main/notebooks/CPUE_Standardization_&_Prediction) or [Click here for App](https://squidstock-course-correction.streamlit.app)
-  - 🌡️ [Biomass Simulation under warming Scenarios](https://github.com/Euchie23/SquidStock/blob/main/notebooks/Biomass_Forecasting/Biomass_Forecasting_Environment.ipynb) – Models Illex argentinus biomass under environmental variability and warming projections using a nonlinear EDPSM. Supports proactive management by illustrating potential stock responses to climate change and guiding adaptive harvest strategies. [Click here for README](https://github.com/Euchie23/SquidStock/tree/main/notebooks/Biomass_Forecasting) or [Click here for App](https://squidstock-ocean-dynamics.streamlit.app)
-  - ⚙️ [Predictive Squid Catch Models using AutoML](https://github.com/Euchie23/SquidStock/blob/main/notebooks/AutoML/AutoML.ipynb) – Implements a full, production-ready ML workflow to predict weekly CPUE for short-lived, mobile squid. Includes feature engineering, class-conditioned regression, anomaly detection, and drift monitoring. Helps operational teams anticipate high- or low-catch weeks while explicitly flagging uncertainty in medium-CPUE regimes. [Click here for README](https://github.com/Euchie23/SquidStock/tree/main/notebooks/AutoML) or [Click here for App](https://squidstock-the-engine-room.streamlit.app)
-
-  
-<br><br>
-
-**<a href="https://github.com/Euchie23/GeoTentacles/" target="_blank">GeoTentacles</a> - Geospatial Insights & Analytics for Marine Biodiversity & Habitat Planning** <br>
-
-- A collection of PostGIS scripts, QGIS layers, geospatial notebooks, and ML pipelines that illustrate spatial analysis of marine species, catch hotspots, and environmental layers. Interactive dashboards are planned for risk-aware decision support and conservation planning. Key projects include:
-  - 🗺️ **Charting the Currents — 21-Year Squid Catch Hotspot Dynamics**  
-Explores long-term squid catch hotspots (2000–2020) using PostGIS clustering, spatial grids, and density maps. Supports **conservation planning** and **risk-aware survey prioritization** for fisheries managers, marine ecologists, and environmental groups. [Click here for README](https://github.com/Euchie23/GeoTentacles/tree/main/hotspot_dynamics)
-  - 🦑 **Forecasting the Swarms — Squid Catch Hotspot Prediction**  
-Predicts likely future squid catch hotspots using Random Forest classification on environmental and historical catch data. Provides **probabilistic maps** to enable **risk-aware decision-making** and guide proactive conservation and survey allocation.
-[Click here for README](https://github.com/Euchie23/GeoTentacles/tree/main/hotspot_predictions)
- 
+Target environments include:
+**environmental consultancies, regulators, NGOs, sustainability teams, and applied data groups**.
 
 ---
 
-## Skills
+## 🧭 Flagship Decision-Support Projects
 
-- **Technical**
-  - **Data Engineering**: Data cleaning, Built ETL pipelines in R/Python, SQL-based structuring
-  - **Programming & Tools**: R, Python, SQL, tidyverse, ggplot2, PostgreSQL, Bash, Git, Excel (VBA)
-  - **Modelling**: GAMs, Tweedie Regressors, Population Dynamics Model, AutoML
-  - **Geospatial Analytics**: NetCDF integration, Geospatial data fusion, PostGIS querying, QGIS mapping
-  - **Visualization**: ggplot2, matplotlib, seaborn, plotly, dashboard building
-  - **Dashboards**: Shiny, Streamlit; parameterized EDI/HQ tools for stakeholders
+[### 🦑 SquidStack](https://github.com/Euchie23/SquidStack/)  
+**Environmental Contaminants & Human Health Screening**  
+Interactive **R Shiny dashboards** translating marine pollution data into **risk-aware insights**.
 
-- **Domain Specific** 
-  - **Environmental data analysis**: Master’s thesis, SquidStack dashboards, QGIS, R/Python workflows
-  - **Analytical chemistry sample prep (ICP-MS)**: Sample prep, calibration, instrument operation, lab experience
-  - **Pollution risk modeling**: Risk Evaluation dashboard, EDI/HQ tools, health exposure
-  - **Marine ecology & stock assessment**: SquidStock, CPUE modeling, biomass forecasting
-  - **Bioindicator data interpretation**: Squid tissue contaminant analysis, thesis core
-  - **Ecological modeling**: GAMs, GLMs, for resource management, fisheries science, or marine population dynamics.
+**Decision flow:**
+- QA/QC & data credibility
+- Pattern detection & prioritization
+- Temporal trend analysis (incl. COVID-era effects)
+- Human health screening (EDI / HQ)
 
-- **Soft**  
-  - **Cross-Team Collaboration**: Analytical Chemists, lab technicians, Marine Ecologists, Fisheries Scientists and Statisticians
-  - **Scientific communication**: Well-written READMEs, Dashboards and clearly explained methodology and results
-  - **Attention to detail**: Clean documentation, modular code, commented scripts
-  - **Problem-Solving**: Dealing with incomplete, Messy, Noisy and incosistent data as well as bugs and equation fixing 
-  - **Project ownership**: Roadmap, version control, organized folders
-  - **Reproducibility**: RMarkdowns/Jupyter notebooks, clear setup instructions, parameterized code
+🔗 App:  
+- 🧱 [Foundation](https://euchie23.shinyapps.io/foundation/) 
+- 🧪 [Exploration](https://euchie23.shinyapps.io/exploration/) 
+- 📈 [Fluctuations](https://euchie23.shinyapps.io/fluctuation/) 
+- ⚠️ [Risk Evaluation](https://euchie23.shinyapps.io/risk_evaluation/) 
 ---
 
-## 🧾Certificates:
+[### 📈 SquidStock](https://github.com/Euchie23/SquidStock/)  
+**Fisheries Dynamics & Risk-Aware Modeling**  
 
-- <b>365 DataScience (In Progress) </b>
+Python & Streamlit tools supporting **stock assessment and planning under uncertainty**.
+
+Includes:
+- CPUE standardization (GAMs, Tweedie)
+- Biomass simulation (EDSPM-style models)
+- Scenario-aware forecasting
+- Exploratory ML with explicit validation limits
+
+🔗 App(s) / Notebooks:  
+- 📈 [Temporal CPUE Analysis](https://github.com/Euchie23/SquidStock/blob/main/notebooks/Temporal_Catch_Analysis/Temporal_Catch_Analysis.ipynb) 
+- 📊 [CPUE Standardization & Prediction](https://squidstock-course-correction.streamlit.app) 
+- 🌡️ [Biomass Simulation under Warming Scenarios](https://squidstock-ocean-dynamics.streamlit.app)
+- ⚙️ [Predictive Squid Catch Models using AutoML](https://squidstock-the-engine-room.streamlit.app)
+
+---
+
+[### 🌍 GeoTentacles](https://github.com/Euchie23/GeoTentacles/)  
+**Spatial Intelligence for Marine Systems**  
+
+PostgreSQL/PostGIS-driven spatial analytics for **monitoring, hotspot detection, and planning**.
+
+Highlights:
+- 20+ years of spatio-temporal hotspot analysis
+- Probabilistic hotspot prediction (ML)
+- PostgreSQL + PostGIS backend  
+- Shiny apps deployed using **Neon (serverless PostgreSQL)**
+
+🔗 App(s):  
+- [🗺️ **Hotspots]() — Historical and Predicted Squid Hotpots**  
+
+---
+
+## 🦺 HSE–Q Risk Intelligence (Personal Project)
+
+Alongside my current role as **Contracted HSE-Q Support** on a **regulated oil & gas infrastructure construction project**, I am building a **professional-grade HSE–Q risk intelligence system**.
+
+**System scope:**
+- PostgreSQL schema (DDL)
+- Reproducible risk scoring logic (SQL)
+- Shiny dashboard wireframes
+- ML-ready feature design (future)
+
+📌 **Conceptual Risk Intelligence Model**  
+*(Placeholder — high-level ERD diagram showing task-centered risk flow)*  
+> Diagram to be added (e.g. draw.io / diagrams.net)
+
+📘 Full schema, logic & design rules → README
+
+---
+
+## ⚠️ Data Governance
+All repositories use **simulated or anonymized data**.  
+Real operational data is delivered to clients through formal reporting channels to ensure confidentiality.
+
+---
+
+## 🛠 Technical Skills
+
+**Data & Analytics**
+- R, Python, SQL, PostgreSQL
+- QA/QC workflows, ETL pipelines
+- GAMs, Tweedie regressors, population models
+- Exploratory & applied ML (AutoML, validation-aware)
+
+**Spatial**
+- PostGIS, QGIS, NetCDF integration
+- Spatio-temporal hotspot analysis
+- Probabilistic mapping & uncertainty communication
+
+**Dashboards**
+- R Shiny, Streamlit
+- Parameterized risk & exposure tools
+- Decision-focused visual design
+
+---
+
+## 🌱 Domain Experience
+
+- Marine pollution & bioindicators
+- Human health exposure screening
+- Fisheries stock assessment
+- Environmental monitoring systems
+- HSE-Q indicators in regulated construction environments
+
+---
+
+## 🧾 Certificates
+- 365 Data Science (in progress)
   - [Statistics](https://learn.365datascience.com/certificates/CC-AAD35FAB67/)
   - [Python](https://learn.365datascience.com/certificates/CC-35DE6E8ECC/)
   - [SQL](https://learn.365datascience.com/certificates/CC-8A7C7EED63/)
   - [Machine Learning in Python](https://learn.365datascience.com/certificates/CC-BA4E35B27D/)
-    
-- <b> The European Energy Centre </b>
-  - Renewable Energy Expert Certificate
-  - Galileo Masters Certificate
-    - Energy Efficiency in Buildings Certificate
-    - Renewable Energy Management and Finance Certificate
+- European Energy Centre — Renewable Energy & Energy Efficiency
 
 ---
 
-## 🤳 Connect with me:
-- 📧 Email: euchiejnpierre@gmail.com <br>
-- 🔗 <a href="https://www.linkedin.com/in/euchiejnpierre/" target="_blank">LinkedIn</a>
+## 📬 Connect
+📧 Email: euchiejnpierre@gmail.com  
+🔗 LinkedIn: *(link)*
+
+---
+
+<details>
+<summary><strong>📖 About My Work Philosophy</strong></summary>
+
+I don’t optimize for hype or black-box performance.  
+I build systems that make **assumptions visible**, **uncertainty explicit**, and **decisions defensible** — especially where environmental and human consequences matter.
+
+</details>
