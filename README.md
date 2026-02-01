@@ -3,8 +3,8 @@
 > *“A stitch in time saves nine.”*  
 > I build **risk-aware, decision-support tools** that turn complex environmental, spatial, and safety data into **early warnings and defensible insights**.
 
-I'm a Caribbean-born **environmental scientist and applied data practitioner** with academic training in Asia and hands-on exposure to **regulated industrial environments**.  
-My work sits at the intersection of **environmental science, spatial analytics, and applied risk intelligence**, with a focus on **monitoring, prioritization, and prevention**.<br>
+I'm an **interdisciplinary environmental scientist and applied data practitioner** with academic training in Asia and hands-on exposure to **regulated industrial environments**.  
+My work sits at the intersection of **environmental science, spatial analytics, and applied risk intelligence**, with a focus on **monitoring, prioritization, and prevention**.<br><br>
 <img src="https://img.shields.io/badge/-Data%20Scientist-276DC3?&style=for-the-badge&logo=r&logoColor=white" />
 <img src="https://img.shields.io/badge/-Marine%20Ecology-0099cc?&style=for-the-badge&logo=fish&logoColor=white" />
 
@@ -33,15 +33,17 @@ Target environments include:
 ## 🧭 Flagship Decision-Support Projects
 
 ### 🦑 SquidStack
-[README](https://github.com/Euchie23/SquidStack/)  
 **Environmental Contaminants & Human Health Screening**  
 Interactive **R Shiny dashboards** translating marine pollution data into **risk-aware insights**.
+
 
 **Decision flow:**
 - QA/QC & data credibility
 - Pattern detection & prioritization
 - Temporal trend analysis (incl. COVID-era effects)
 - Human health screening (EDI / HQ)
+
+[*More about SquidStack*](https://github.com/Euchie23/SquidStack/)  
 
 🔗 App:  
 - 🧱 [Foundation](https://euchie23.shinyapps.io/foundation/) 
@@ -51,7 +53,6 @@ Interactive **R Shiny dashboards** translating marine pollution data into **risk
 ---
 
 ### 📈 SquidStock
-[README](https://github.com/Euchie23/SquidStock/)  
 **Fisheries Dynamics & Risk-Aware Modeling**  
 
 Python & Streamlit tools supporting **stock assessment and planning under uncertainty**.
@@ -62,6 +63,8 @@ Includes:
 - Scenario-aware forecasting
 - Exploratory ML with explicit validation limits
 
+[*More about SquidStock*](https://github.com/Euchie23/SquidStock/) 
+
 🔗 App(s) / Notebooks:  
 - 📈 [Temporal CPUE Analysis](https://github.com/Euchie23/SquidStock/blob/main/notebooks/Temporal_Catch_Analysis/Temporal_Catch_Analysis.ipynb) 
 - 📊 [CPUE Standardization & Prediction](https://squidstock-course-correction.streamlit.app) 
@@ -70,8 +73,7 @@ Includes:
 
 ---
 
-### 🌍 GeoTentacles
-[README](https://github.com/Euchie23/GeoTentacles/)  
+### 🌍 GeoTentacles 
 **Spatial Intelligence for Marine Systems**  
 
 PostgreSQL/PostGIS-driven spatial analytics for **monitoring, hotspot detection, and planning**.
@@ -81,6 +83,8 @@ Highlights:
 - Probabilistic hotspot prediction (ML)
 - PostgreSQL + PostGIS backend  
 - Shiny apps deployed using **Neon (serverless PostgreSQL)**
+
+[*More about GeoTentacles*](https://github.com/Euchie23/GeoTentacles/)  
 
 🔗 App(s):  
 - [🗺️ **Hotspots]() — Historical and Predicted Squid Hotpots**  
