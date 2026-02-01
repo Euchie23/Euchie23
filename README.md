@@ -123,6 +123,10 @@ Alongside my current role as **Contracted HSE-Q Support** on a **regulated oil &
 
 📌 **Conceptual Risk Intelligence Model**  
 
+# HSE Risk Intelligence ERD
+
+Below is a high-level, task-centered ERD diagram showing the risk flow.
+
 ```mermaid
 erDiagram
     SITE ||--o{ ZONE : contains
@@ -144,10 +148,7 @@ erDiagram
     OBSERVATION }o--|| INCIDENT : informs
 ```
 
-*(Placeholder — high-level ERD diagram showing task-centered risk flow)*  
-> Diagram to be added (e.g. draw.io / diagrams.net)
-
-📘 Full schema, logic & design rules → README
+📘 Full schema, logic & design rules *(to be added later)*
 
 ---
 
