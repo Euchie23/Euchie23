@@ -32,6 +32,24 @@ Target environments include:
 
 ---
 
+## 🧩 Decision-Support Architecture
+Across projects, I follow a consistent decision-support architecture that emphasizes data credibility, traceability, and operational relevance.
+
+```mermaid
+flowchart TD
+    A[Data Sources<br/>Environmental | Fisheries | HSE]
+    B[PostgreSQL / PostGIS<br/>QA/QC • Schemas • Governance]
+    C[Analytics Layers<br/>R • Python • Statistics • ML]
+    D[Decision-Support Tools<br/>Shiny • Streamlit]
+    E[End Users<br/>Regulators • Consultancies • ESG • HSE]
+
+    A --> B --> C --> D --> E
+```
+
+*From raw data to defensible decisions in regulated and high-uncertainty environments.*
+
+---
+
 ## 🧭 Flagship Decision-Support Projects
 
 ### 🦑 SquidStack
