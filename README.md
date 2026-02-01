@@ -87,7 +87,7 @@ Highlights:
 [*More about GeoTentacles*](https://github.com/Euchie23/GeoTentacles/)  
 
 🔗 App(s):  
-- [🗺️ **Hotspots — Historical and Predicted Squid Hotpots**]()  
+- [🗺️ **Hotspots — Historical and Predicted Squid Hotpots**](<https://euchie23.shinyapps.io/geotentacles__hotspots/>)  
 
 ---
 
@@ -155,9 +155,9 @@ Real operational data is delivered to clients through formal reporting channels 
 
 ---
 
-## 📬 Connect
-📧 Email: euchiejnpierre@gmail.com  
-🔗 LinkedIn: *(link)*
+## 🤳 Connect with me:
+- 📧 Email: euchiejnpierre@gmail.com <br>
+- 🔗 <a href="https://www.linkedin.com/in/euchiejnpierre/" target="_blank">LinkedIn</a>
 
 ---
 
