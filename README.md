@@ -122,6 +122,28 @@ Alongside my current role as **Contracted HSE-Q Support** on a **regulated oil &
 - ML-ready feature design (future)
 
 📌 **Conceptual Risk Intelligence Model**  
+
+```mermaid
+erDiagram
+    SITE ||--o{ ZONE : contains
+    ZONE ||--o{ PHASE : includes
+    PHASE ||--o{ TASK : defines
+
+    PERSON ||--o{ ATTENDANCE : logs
+    ATTENDANCE }o--|| TASK : supports
+
+    TASK ||--o{ INCIDENT : leads_to
+    INCIDENT ||--o{ INTERVENTION : triggers
+    INTERVENTION ||--o{ CORRECTIVE_ACTION : results_in
+
+    TASK ||--o{ HAZARD : exposes
+    HAZARD ||--o{ CONTROL : mitigated_by
+    CONTROL }o--o{ CORRECTIVE_ACTION : updated_by
+
+    WEATHER }o--|| TASK : influences
+    OBSERVATION }o--|| INCIDENT : informs
+```
+
 *(Placeholder — high-level ERD diagram showing task-centered risk flow)*  
 > Diagram to be added (e.g. draw.io / diagrams.net)
 
