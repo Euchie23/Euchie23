@@ -45,7 +45,7 @@ Interactive **R Shiny dashboards** translating marine pollution data into **risk
 
 [*More about SquidStack*](https://github.com/Euchie23/SquidStack/)  
 
-🔗 App:  
+🔗 Apps:  
 - 🧱 [Foundation](https://euchie23.shinyapps.io/foundation/) 
 - 🧪 [Exploration](https://euchie23.shinyapps.io/exploration/) 
 - 📈 [Fluctuations](https://euchie23.shinyapps.io/fluctuation/) 
@@ -65,7 +65,7 @@ Includes:
 
 [*More about SquidStock*](https://github.com/Euchie23/SquidStock/) 
 
-🔗 App(s) / Notebooks:  
+🔗 Apps / Notebooks:  
 - 📈 [Temporal CPUE Analysis](https://github.com/Euchie23/SquidStock/blob/main/notebooks/Temporal_Catch_Analysis/Temporal_Catch_Analysis.ipynb) 
 - 📊 [CPUE Standardization & Prediction](https://squidstock-course-correction.streamlit.app) 
 - 🌡️ [Biomass Simulation under Warming Scenarios](https://squidstock-ocean-dynamics.streamlit.app)
@@ -87,7 +87,7 @@ Highlights:
 [*More about GeoTentacles*](https://github.com/Euchie23/GeoTentacles/)  
 
 🔗 App(s):  
-- [🗺️ **Hotspots]() — Historical and Predicted Squid Hotpots**  
+- [🗺️ **Hotspots — Historical and Predicted Squid Hotpots**]()  
 
 ---
 
