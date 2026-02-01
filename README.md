@@ -123,8 +123,6 @@ Alongside my current role as **Contracted HSE-Q Support** on a **regulated oil &
 
 📌 **Conceptual Risk Intelligence Model**  
 
-# HSE Risk Intelligence ERD
-
 Below is a high-level, task-centered ERD diagram showing the risk flow.
 
 ```mermaid
