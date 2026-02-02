@@ -13,7 +13,7 @@ Trained academically in Asia and with hands-on experience in **regulated industr
 
 ## 🎓 Background
 - Marine Environmental Science + Applied Data Science 
- - MSc Biodiversity — National Taiwan University (Taiwan)
+  - MSc Biodiversity — National Taiwan University (Taiwan)
 - Originally trained in business, bringing operational insight and analytical rigor to environmental data and decision-support work.
 - Currently based in **Saint Lucia**
 
