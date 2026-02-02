@@ -163,7 +163,7 @@ erDiagram
 ```
 
 📘 System Logic, Data Entry Rules, and Risk Calculation Methodology
-*(See [Database Operations Manual]() for full implementation guide)*
+*(See [Database Operations Manual](https://github.com/Euchie23/HSEQ_Risk_Intel/blob/main/docs/Database_Operations_Manual.md) for full implementation guide)*
 
 [*More about HSE-Q Risk Intelligence*](https://github.com/Euchie23/HSEQ_Risk_Intel/)  
 
