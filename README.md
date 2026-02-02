@@ -12,10 +12,10 @@ Trained academically in Asia and with hands-on experience in **regulated industr
 ---
 
 ## 🎓 Background
-**Marine Environmental Science + Applied Data Science**  
-MSc Biodiversity — National Taiwan University (Taiwan)  
-Originally trained in business, bringing operational insight and analytical rigor to environmental data and decision-support work.  
-Currently based in **Saint Lucia**
+- Marine Environmental Science + Applied Data Science 
+ - MSc Biodiversity — National Taiwan University (Taiwan)
+- Originally trained in business, bringing operational insight and analytical rigor to environmental data and decision-support work.
+- Currently based in **Saint Lucia**
 
 ---
 
@@ -163,7 +163,9 @@ erDiagram
 ```
 
 📘 System Logic, Data Entry Rules, and Risk Calculation Methodology
-*(See Database Operations Manual for full implementation guide)*
+*(See [Database Operations Manual]() for full implementation guide)*
+
+[*More about HSE-Q Risk Intelligence*](https://github.com/Euchie23/HSEQ_Risk_Intel/)  
 
 ---
 
