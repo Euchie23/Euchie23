@@ -123,7 +123,7 @@ Alongside my current role as **Contracted HSE-Q Support** on a **regulated oil &
 
 📌 **Conceptual Risk Intelligence Model**  
 
-Below is a high-level, task-centered ERD diagram showing the risk flow.
+Below is a high-level, task-centered ERD diagram showing how risk information flows through the system.
 
 ```mermaid
 erDiagram
@@ -162,7 +162,8 @@ erDiagram
     WEATHER }o--|| TASK : influences
 ```
 
-*📘 Full schema, logic & design rules* *(to be added later)*
+📘 System Logic, Data Entry Rules, and Risk Calculation Methodology
+*(See Database Operations Manual for full implementation guide)*
 
 ---
 
