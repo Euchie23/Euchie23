@@ -171,8 +171,25 @@ erDiagram
 ---
 
 ## ⚠️ Data Governance
-All repositories use **simulated or anonymized data**.  
+
+All repositories use simulated or anonymized data.
+
 Real operational data is delivered to clients through formal reporting channels to ensure confidentiality.
+
+### HSE Risk Intelligence Project — Specific Note
+
+The HSE Risk Intelligence repository is built from real field observations and HSE reports authored by the developer during routine site oversight.
+
+For portfolio publication:
+
+- Worker names are anonymized
+- Site and company identifiers are generalized
+- PTW numbers, JSA numbers, and certification identifiers are anonymized
+- Company-specific risk matrices, severity definitions, and probability classifications are **not reproduced verbatim**
+
+The project preserves the **operational logic** of how hazards, tasks, incidents, and controls interact, while ensuring that no proprietary company risk framework or identifying information is exposed.
+
+This demonstrates how real-world HSE intelligence can be ethically structured into a governed analytics system without violating confidentiality.
 
 ---
 
