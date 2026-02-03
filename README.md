@@ -107,7 +107,8 @@ Highlights:
 [*More about GeoTentacles*](https://github.com/Euchie23/GeoTentacles/)  
 
 🔗 App(s):  
-- [🗺️ **Hotspots — Historical and Predicted Squid Hotpots**](<https://euchie23.shinyapps.io/geotentacles__hotspots/>)  
+- [🗺️ **Hotspots — Historical and Predicted Squid Hotpots**](<https://euchie23.shinyapps.io/geotentacles__hotspots/>)
+- 🌎 Marine Scope - A marine health app focused on acessing marine pollutants *(Coming Soon)*
 
 ---
 
