@@ -146,7 +146,7 @@ erDiagram
     INCIDENT ||--o{ INTERVENTION : triggers
     INTERVENTION ||--o{ CORRECTIVE_ACTION : results_in
 
-    TASK ||--o{ OBSERVATION : generates
+    OBSERVATION }o--|| TASK  : may_relate_to
     OBSERVATION ||--o{ HAZARD : may_generate
     OBSERVATION ||--o{ CORRECTIVE_ACTION : may_create
 
