@@ -132,31 +132,44 @@ erDiagram
     ZONE ||--o{ PHASE : includes
     PHASE ||--o{ TASK : defines
 
-    TOOLBOX_MEETING ||--o{ ATTENDANCE : records
-    TOOLBOX_MEETING ||--o{ OBSERVATION : raises
-    TOOLBOX_MEETING ||--o{ HAZARD : anticipates
-
     PERSON ||--o{ ATTENDANCE : logs
-    ATTENDANCE ||--o{ PPE_CHECK : verifies
-
-    PERSON ||--o{ OBSERVATION : reports
-    OBSERVATION ||--o{ OBSERVATION_ZONE : mapped_to
-    OBSERVATION_ZONE }o--|| ZONE : affects
-
-    TASK ||--o{ HAZARD : exposes
-    OBSERVATION ||--o{ HAZARD : may_identify
-
-    HAZARD ||--o{ HAZARD_CONTROL : mitigated_by
-    HAZARD_CONTROL }o--|| CONTROL : uses
-
-    HAZARD ||--o{ INCIDENT : may_lead_to
-    INCIDENT ||--o{ INTERVENTION : triggers
-    INTERVENTION ||--o{ CORRECTIVE_ACTION : results_in
-
-    OBSERVATION ||--o{ CORRECTIVE_ACTION : may_create
+    ATTENDANCE }o--|| TASK : supports
 
     TASK ||--o{ PTW : requires
     TASK ||--o{ JSA : requires
+
+    PERSON ||--o{ PERSON_CERTIFICATION : holds
+    PTW ||--o{ PTW_CERTIFICATION : requires
+    JSA ||--o{ JSA_CERTIFICATION : requires
+
+    TASK ||--o{ INCIDENT : leads_to
+    INCIDENT ||--o{ INTERVENTION : triggers
+    INTERVENTION ||--o{ CORRECTIVE_ACTION : results_in
+
+    TASK ||--o{ OBSERVATION : generates
+    OBSERVATION ||--o{ HAZARD : may_generate
+    OBSERVATION ||--o{ CORRECTIVE_ACTION : may_create
+
+    %% NEW — observation can span zones
+    OBSERVATION ||--o{ OBSERVATION_ZONE : mapped_to
+    ZONE ||--o{ OBSERVATION_ZONE : covers
+
+    TASK ||--o{ HAZARD : exposes
+    HAZARD ||--o{ HAZARD_CONTROL : mitigated_by
+    HAZARD_CONTROL }o--|| CONTROL : uses
+
+    %% Risk Engine (must stay visible)
+    HAZARD }o--|| SEVERITY_LEVELS : rated_by
+    HAZARD }o--|| PROBABILITY_LEVELS : rated_by
+    SEVERITY_LEVELS ||--o{ RISK_MATRIX : defines
+    PROBABILITY_LEVELS ||--o{ RISK_MATRIX : defines
+    HAZARD_CONTROL }o--|| CONTROL_EFFECTIVENESS_SCALE : evaluated_by
+
+    %% NEW — Toolbox meetings feed hazards & controls
+    TOOLBOX_MEETING ||--o{ HAZARD : identifies
+    TOOLBOX_MEETING ||--o{ CONTROL : recommends
+
+    WEATHER }o--|| TASK : influences
 ```
 
 📘 System Logic, Data Entry Rules, and Risk Calculation Methodology
