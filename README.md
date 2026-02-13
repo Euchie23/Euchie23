@@ -124,7 +124,7 @@ Alongside my current role as **Contracted HSE-Q Support** on a **regulated oil &
 
 📌 **Conceptual Risk Intelligence Model**  
 
-Below is a high-level, task-centered ERD diagram showing how risk information flows through the system.
+Below is a high-level, operational risk intelligence ERD diagram showing how risk information flows through the system.
 
 ```mermaid
 erDiagram
@@ -187,6 +187,7 @@ For portfolio publication:
 - Worker names are anonymized
 - Site and company identifiers are generalized
 - PTW numbers, JSA numbers, and certification identifiers are anonymized
+- Observations are structured to reflect operational reality without exposing proprietary frameworks
 - Company-specific risk matrices, severity definitions, and probability classifications are **not reproduced verbatim**
 
 The project preserves the **operational logic** of how hazards, tasks, incidents, and controls interact, while ensuring that no proprietary company risk framework or identifying information is exposed.
