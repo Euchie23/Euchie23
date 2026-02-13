@@ -150,26 +150,21 @@ erDiagram
     OBSERVATION ||--o{ HAZARD : may_generate
     OBSERVATION ||--o{ CORRECTIVE_ACTION : may_create
 
-    %% NEW — observation can span zones
-    OBSERVATION ||--o{ OBSERVATION_ZONE : mapped_to
-    ZONE ||--o{ OBSERVATION_ZONE : covers
-
     TASK ||--o{ HAZARD : exposes
     HAZARD ||--o{ HAZARD_CONTROL : mitigated_by
     HAZARD_CONTROL }o--|| CONTROL : uses
 
-    %% Risk Engine (must stay visible)
     HAZARD }o--|| SEVERITY_LEVELS : rated_by
     HAZARD }o--|| PROBABILITY_LEVELS : rated_by
     SEVERITY_LEVELS ||--o{ RISK_MATRIX : defines
     PROBABILITY_LEVELS ||--o{ RISK_MATRIX : defines
+
     HAZARD_CONTROL }o--|| CONTROL_EFFECTIVENESS_SCALE : evaluated_by
 
-    %% NEW — Toolbox meetings feed hazards & controls
-    TOOLBOX_MEETING ||--o{ HAZARD : identifies
-    TOOLBOX_MEETING ||--o{ CONTROL : recommends
-
     WEATHER }o--|| TASK : influences
+
+    TOOLBOX_MEETING ||--o{ TOOLBOX_MEETING_TASK : discusses
+    TASK ||--o{ TOOLBOX_MEETING_TASK : covered_in
 ```
 
 📘 System Logic, Data Entry Rules, and Risk Calculation Methodology
