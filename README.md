@@ -161,6 +161,8 @@ erDiagram
 
     HAZARD_CONTROL }o--|| CONTROL_EFFECTIVENESS_SCALE : evaluated_by
     HAZARD_CONTROL ||--o{ CORRECTIVE_ACTION : may_trigger
+    HAZARD ||--o{ INCIDENT : may_result_in
+
 
     TOOLBOX_MEETING ||--o{ TOOLBOX_MEETING_TASK : links
     TOOLBOX_MEETING_TASK ||--o{ HAZARD : identifies
