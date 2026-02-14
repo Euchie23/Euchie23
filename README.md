@@ -154,10 +154,6 @@ erDiagram
     HAZARD ||--o{ HAZARD_CONTROL : mitigated_by
     HAZARD_CONTROL }o--|| CONTROL : uses
 
-    TOOLBOX_MEETING ||--o{ TOOLBOX_MEETING_TASK : links
-    TOOLBOX_MEETING_TASK ||--o{ HAZARD : identifies
-    TOOLBOX_MEETING_TASK ||--o{ HAZARD_CONTROL : planned_controls
-
     HAZARD }o--|| SEVERITY_LEVELS : rated_by
     HAZARD }o--|| PROBABILITY_LEVELS : rated_by
     SEVERITY_LEVELS ||--o{ RISK_MATRIX : defines
@@ -165,6 +161,10 @@ erDiagram
 
     HAZARD_CONTROL }o--|| CONTROL_EFFECTIVENESS_SCALE : evaluated_by
     HAZARD_CONTROL ||--o{ CORRECTIVE_ACTION : may_trigger
+
+    TOOLBOX_MEETING ||--o{ TOOLBOX_MEETING_TASK : links
+    TOOLBOX_MEETING_TASK ||--o{ HAZARD : identifies
+    TOOLBOX_MEETING_TASK ||--o{ HAZARD_CONTROL : planned_controls
 
     WEATHER }o--|| TASK : influences
 ```
