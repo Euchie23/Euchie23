@@ -153,13 +153,14 @@ erDiagram
     TASK ||--o{ HAZARD : exposes
     HAZARD ||--o{ HAZARD_CONTROL : mitigated_by
     HAZARD_CONTROL }o--|| CONTROL : uses
+    HAZARD_CONTROL }o--|| CONTROL_EFFECTIVENESS_SCALE : evaluated_by
 
     HAZARD }o--|| SEVERITY_LEVELS : rated_by
     HAZARD }o--|| PROBABILITY_LEVELS : rated_by
     SEVERITY_LEVELS ||--o{ RISK_MATRIX : defines
     PROBABILITY_LEVELS ||--o{ RISK_MATRIX : defines
 
-    HAZARD_CONTROL }o--|| CONTROL_EFFECTIVENESS_SCALE : evaluated_by
+   
     HAZARD_CONTROL ||--o{ CORRECTIVE_ACTION : may_trigger
     HAZARD ||--o{ INCIDENT : may_result_in
 
