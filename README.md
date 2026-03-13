@@ -94,21 +94,23 @@ Includes:
 ---
 
 ### 🌍 GeoTentacles 
-**Spatial Intelligence for Marine Systems**  
+**Marine Ecosystem Spatial Intelligence**  
 
-PostgreSQL/PostGIS-driven spatial analytics for **monitoring, hotspot detection, and planning**.
+Interactive dashboards turning marine data into actionable insights on hotspots, pollution, and ecosystem health
 
 Highlights:
-- 20+ years of spatio-temporal hotspot analysis
-- Probabilistic hotspot prediction (ML)
-- PostgreSQL + PostGIS backend  
-- Shiny apps deployed using **Neon (serverless PostgreSQL)**
+- 20+ years of spatio-temporal hotspot analysis for fisheries and marine ecosystems
+- Machine learning models for **probabilistic hotspot prediction**
+- **Marine pollution monitoring** and ecosystem condition analytics
+- **Spatial interpolation** and predictive environmental **risk modeling** (e.g., IDW surfaces)
+- **Geospatial analytics** built using tools such as **PostGIS, Folium, and interactive web frameworks**
+- Interactive applications deployed with scalable cloud databases like **Neon (serverless PostgreSQL)**
 
 [*More about GeoTentacles*](https://github.com/Euchie23/GeoTentacles/)  
 
 🔗 App(s):  
-- [🗺️ **Hotspots — Historical and Predicted Squid Hotpots**](<https://euchie23.shinyapps.io/geotentacles__hotspots/>)
-- 🌎 Marine Scope - A spatial marine health app for analyzing pollution, ecosystem condition, and environmental change *(Coming Soon)*
+- [🗺️ **Hotspots — Historical and Predicted Squid Catch Hotspots**](<https://euchie23.shinyapps.io/geotentacles__hotspots/>)
+- [🌎 **Marine Scope - Your Window into Marine Ecosystem Health**](https://geotentacles-marinescope.streamlit.app)
 
 ---
 
