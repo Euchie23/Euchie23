@@ -172,6 +172,10 @@ erDiagram
     TOOLBOX_MEETING_TASK ||--o{ HAZARD_CONTROL : planned_controls
 
     WEATHER }o--|| TASK : influences
+
+    PTW }o--|| PTW_SOURCE_TYPE : classified_by
+    JSA }o--|| JSA_SOURCE_TYPE : classified_by
+
 ```
 
 📘 System Logic, Data Entry Rules, and Risk Calculation Methodology
