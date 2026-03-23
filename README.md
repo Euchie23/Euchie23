@@ -114,7 +114,7 @@ Highlights:
 
 ---
 
-## 🦺 HSE–Q Risk Intelligence (Personal Project)
+## 🦺 HSE–Q Risk Intelligence (Personal Project - In development)
 
 Alongside my current role as **Contracted HSE-Q Support** on a **regulated oil & gas infrastructure construction project**, I am building a **professional-grade HSE–Q risk intelligence system**.
 
@@ -190,25 +190,25 @@ erDiagram
 
 ## ⚠️ Data Governance
 
-All repositories use simulated or anonymized data.
+All repositories use simulated or pseudonymized data.
 
 Real operational data is delivered to clients through formal reporting channels to ensure confidentiality.
 
 ### HSE Risk Intelligence Project — Specific Note
 
-The HSE Risk Intelligence repository is built from real field observations and HSE reports authored by the developer during routine site oversight.
+The HSE Risk Intelligence framework is derived from authentic field observations and safety reports authored during routine site oversight. To maintain the highest standards of Information Security and Professional Ethics, the following protocols are applied:
 
-For portfolio publication:
+  - **Data Minimization & Pseudonymization:** All Personally Identifiable Information (PII), including worker names and certification identifiers, is pseudonymized at the ingestion layer.
 
-- Worker names are anonymized
-- Site and company identifiers are generalized
-- PTW numbers, JSA numbers, and certification identifiers are anonymized
-- Observations are structured to reflect operational reality without exposing proprietary frameworks
-- Company-specific risk matrices, severity definitions, and probability classifications are **not reproduced verbatim**
+  - **Contextual Abstraction:** Site identifiers and company-specific markers are generalized to ensure corporate anonymity while preserving the High-Level Structure (HLS) of the safety data.
 
-The project preserves the **operational logic** of how hazards, tasks, incidents, and controls interact, while ensuring that no proprietary company risk framework or identifying information is exposed.
+  - **Technical Safeguards:** Sensitive operational identifiers—such as PTW, JSA, and permit sequences—are fully anonymized to prevent the reconstruction of specific site activities.
 
-This demonstrates how real-world HSE intelligence can be ethically structured into a governed analytics system without violating confidentiality.
+  - **Integrity of Operational Logic:** The repository preserves the complex interaction between hazards, tasks, and controls to reflect real-world safety dynamics without exposing proprietary frameworks.
+
+  - **IP Protection:** Company-specific risk matrices, severity definitions, and probability classifications are not reproduced verbatim, ensuring that third-party intellectual property is respected and secured.
+
+This architecture demonstrates how real-world HSE intelligence can be ethically structured into a governed analytics system, ensuring that operational insights remain transparent while sensitive data remains protected.
 
 ---
 
