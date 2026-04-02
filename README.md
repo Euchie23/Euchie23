@@ -130,13 +130,8 @@ Alongside my current role as **Contracted HSE-Q Support** on a **regulated oil &
 
 For a clear, non-technical explanation of how the system operates in practice, see:
 
-👉 [How It Works – Simple Overview](./docs/HOW_IT_WORKS.md)
+👉 [How It Works (Simple Overview)](https://github.com/Euchie23/HSEQ_Risk_Intel/blob/main/HOW_IT_WORKS.md)
 
-This includes:
-- How data is captured on site  
-- How information is connected  
-- How insights are generated  
-- How the system supports decision-making
 
 ---
 
