@@ -51,7 +51,7 @@ flowchart TD
 
 ## 🧭 Flagship Decision-Support Projects
 
-### 🦑 SquidStack
+## 🦑 SquidStack
 **Environmental Contaminants & Human Health Screening**  
 Interactive **R Shiny dashboards** translating marine pollution data into **risk-aware insights**.
 
@@ -72,7 +72,7 @@ Interactive **R Shiny dashboards** translating marine pollution data into **risk
   
 ---
 
-### 📈 SquidStock
+## 📈 SquidStock
 **Fisheries Dynamics & Risk-Aware Modeling**  
 
 Python & Streamlit tools supporting **stock assessment and planning under uncertainty**.
@@ -93,7 +93,7 @@ Includes:
 
 ---
 
-### 🌍 GeoTentacles 
+## 🌍 GeoTentacles 
 **Marine Ecosystem Spatial Intelligence**  
 
 Interactive dashboards turning marine data into actionable insights on hotspots, pollution, and ecosystem health
@@ -125,14 +125,15 @@ Alongside my current role as **Contracted HSE-Q Support** on a **regulated oil &
 - ML-ready feature design (future)
 
 
-## 📖 How It Works (Simple Overview)
+### 📖 How It Works (Simple Overview)
 
 For a clear, non-technical explanation of how the system operates in practice, see:
 
 👉 [How It Works (Simple Overview)](https://github.com/Euchie23/HSEQ_Risk_Intel/blob/main/HOW_IT_WORKS.md)
 
 
-📌 **Conceptual Risk Intelligence Model**  
+
+### 📌 Conceptual Risk Intelligence Model 
 
 Below is a high-level, operational risk intelligence ERD diagram showing how risk information flows through the system.
 
