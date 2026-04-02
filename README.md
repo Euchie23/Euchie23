@@ -125,7 +125,7 @@ Alongside my current role as **Contracted HSE-Q Support** on a **regulated oil &
 - ML-ready feature design (future)
 
 
-### 📖 How It Works (Simple Overview)
+## 📖 How It Works (Simple Overview)
 
 For a clear, non-technical explanation of how the system operates in practice, see:
 
