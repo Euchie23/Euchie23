@@ -124,6 +124,22 @@ Alongside my current role as **Contracted HSE-Q Support** on a **regulated oil &
 - Shiny dashboard wireframes
 - ML-ready feature design (future)
 
+---
+
+## 📖 How It Works (Simple Overview)
+
+For a clear, non-technical explanation of how the system operates in practice, see:
+
+👉 [How It Works – Simple Overview](./docs/HOW_IT_WORKS.md)
+
+This includes:
+- How data is captured on site  
+- How information is connected  
+- How insights are generated  
+- How the system supports decision-making
+
+---
+
 📌 **Conceptual Risk Intelligence Model**  
 
 Below is a high-level, operational risk intelligence ERD diagram showing how risk information flows through the system.
