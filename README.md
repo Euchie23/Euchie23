@@ -133,7 +133,7 @@ For a clear, non-technical explanation of how the system operates in practice, s
 
 
 
-### 📌 Conceptual Risk Intelligence Model 
+## 📌 Conceptual Risk Intelligence Model 
 
 Below is a high-level, operational risk intelligence ERD diagram showing how risk information flows through the system.
 
