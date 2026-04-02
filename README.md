@@ -124,7 +124,6 @@ Alongside my current role as **Contracted HSE-Q Support** on a **regulated oil &
 - Shiny dashboard wireframes
 - ML-ready feature design (future)
 
----
 
 ## 📖 How It Works (Simple Overview)
 
@@ -132,8 +131,6 @@ For a clear, non-technical explanation of how the system operates in practice, s
 
 👉 [How It Works (Simple Overview)](https://github.com/Euchie23/HSEQ_Risk_Intel/blob/main/HOW_IT_WORKS.md)
 
-
----
 
 📌 **Conceptual Risk Intelligence Model**  
 
