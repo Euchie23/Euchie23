@@ -36,7 +36,7 @@ Target environments include:
 Across projects, I follow a consistent decision-support architecture that emphasizes data credibility, traceability, and operational relevance.
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Data Sources<br/>Environmental, Fisheries, HSE]
     B[PostgreSQL / PostGIS<br/>QA/QC, Schemas, Governance]
     C[Analytics Layers<br/>R, Python, Statistics, ML]
