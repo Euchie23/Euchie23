@@ -37,13 +37,28 @@ Across projects, I follow a consistent decision-support architecture that emphas
 
 ```mermaid
 flowchart LR
-    A[Data Sources<br/>Environmental, Fisheries, HSE]
-    B[PostgreSQL / PostGIS<br/>QA/QC, Schemas, Governance]
-    C[Analytics Layers<br/>R, Python, Statistics, ML]
-    D[Decision-Support Tools<br/>Shiny, Streamlit]
-    E[End Users<br/>Regulators, Consultancies, ESG, HSE]
 
-    A --> B --> C --> D --> E
+  subgraph S1["Data Ingestion"]
+    A["Field Sampling / Lab Analysis / Vessel Data\nRemote Sensing (netCDF) / Public Data"]
+  end
+
+  subgraph S2["Data Management"]
+    B["PostgreSQL + PostGIS\nCleaning, Integration, QA/QC, Governance"]
+  end
+
+  subgraph S3["Analytics"]
+    C["R / Python / Statistics / Machine Learning"]
+  end
+
+  subgraph S4["Applications"]
+    D["Shiny / Streamlit Apps"]
+  end
+
+  subgraph S5["Stakeholders"]
+    E["Regulators / Consultancies / ESG / HSE"]
+  end
+
+  A --> B --> C --> D --> E
 ```
 *From raw data to defensible decisions in regulated and high-uncertainty environments.*
 
