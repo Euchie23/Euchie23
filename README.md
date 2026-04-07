@@ -38,27 +38,33 @@ Across projects, I follow a consistent decision-support architecture that emphas
 ```mermaid
 flowchart LR
 
-  subgraph S1["Data Ingestion"]
-    A["Field Sampling / Lab Analysis / Vessel Data\nRemote Sensing (netCDF) / Public Data"]
-  end
+    %% --- Define subgraphs ---
+    subgraph S1["Data Ingestion"]
+      A["Data Sources\nEnvironmental | Fisheries | HSE | Remote Sensing | Public Data"]
+    end
 
-  subgraph S2["Data Management"]
-    B["PostgreSQL + PostGIS\nCleaning, Integration, QA/QC, Governance"]
-  end
+    subgraph S2["Data Management"]
+      B["PostgreSQL + PostGIS\nQA/QC & Governance"]
+    end
 
-  subgraph S3["Analytics"]
-    C["R / Python / Statistics / Machine Learning"]
-  end
+    subgraph S3["Analytics"]
+      C["R | Python | Statistics | ML"]
+    end
 
-  subgraph S4["Applications"]
-    D["Shiny / Streamlit Apps"]
-  end
+    subgraph S4["Applications"]
+      D["Shiny | Streamlit Apps"]
+    end
 
-  subgraph S5["Stakeholders"]
-    E["Regulators / Consultancies / ESG / HSE"]
-  end
+    subgraph S5["Stakeholders"]
+      E["Regulators | Consultancies | ESG | HSE"]
+    end
 
-  A --> B --> C --> D --> E
+    %% --- Define connections ---
+    A --> B --> C --> D --> E
+
+    %% --- Increase font size ---
+    classDef bigFont font-size:16px, font-family:Arial, font-weight:bold;
+    class A,B,C,D,E bigFont;
 ```
 *From raw data to defensible decisions in regulated and high-uncertainty environments.*
 
