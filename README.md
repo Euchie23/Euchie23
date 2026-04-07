@@ -40,11 +40,11 @@ flowchart LR
 
     %% --- Define subgraphs ---
     subgraph S1["Data Ingestion"]
-      A["Data Sources\nEnvironmental | Fisheries | HSE | Remote Sensing | Public Data"]
+      A["Data Sources\nField Sampling | Lab Analysis | Vessel Data\nRemote Sensing (netCDF) | Public Data"]
     end
 
     subgraph S2["Data Management"]
-      B["PostgreSQL + PostGIS\nQA/QC & Governance"]
+      B["PostgreSQL + PostGIS\nCleaning | Integration | QA/QC | Governance"]
     end
 
     subgraph S3["Analytics"]
