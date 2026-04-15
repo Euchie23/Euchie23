@@ -173,9 +173,6 @@ erDiagram
     PERSON }o--|| ORGANIZATION : employed_by
     PERSON }o--o{ TEAM : assigned_to
 
-    TASK_EXECUTION ||--o{ TASK_ASSIGNMENT : has
-    TASK_ASSIGNMENT }o--|| PERSON : assigned_worker
-
     TASK_EXECUTION ||--o{ PTW : requires
     TASK_EXECUTION ||--o{ JSA : requires
 
@@ -218,7 +215,7 @@ erDiagram
 
     ATTENDANCE }o--o{ TASK_EXECUTION : supports
 
-    WEATHER }o--o{ TASK_EXECUTION : influences
+    WEATHER ||--o{ TASK_EXECUTION : influences
 ```
 
 📘 System Logic, Data Entry Rules, and Risk Calculation Methodology
