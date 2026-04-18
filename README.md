@@ -87,9 +87,9 @@ Interactive **R Shiny dashboards** translating marine pollution data into **risk
 
 🔗 Apps:  
 - 🧱 [Foundation](https://euchie23.shinyapps.io/foundation/) 
-- 🧪 [Exploration](https://euchie23.shinyapps.io/exploration/) 
+- 🤿 [Exploration](https://euchie23.shinyapps.io/exploration/) 
 - 📈 [Fluctuations](https://euchie23.shinyapps.io/fluctuation/) 
-- ⚠️ [Risk Evaluation](https://euchie23.shinyapps.io/risk_evaluation/)
+- ☣️ [Risk Evaluation](https://euchie23.shinyapps.io/risk_evaluation/)
   
 ---
 
