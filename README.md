@@ -89,11 +89,9 @@ flowchart LR
 *Turning environmental and operational data into **defensible, decision-ready risk intelligence**.*
 
 ---
-## 🧠 Decision Intelligence Systems
+## 🧠 Decision Intelligence Systems (Projects)
 
 A collection of applied systems designed to support **decision-making under uncertainty** across environmental and operational risk contexts.
-
-## 🧩 Projects
 
 ## 🦑 SquidStack
 **Environmental Contaminants & Human Health Screening**  
