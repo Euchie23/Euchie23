@@ -169,7 +169,7 @@ A **risk intelligence system for HSE-Q environments**, designed to structure fie
 **System components:**
 - Relational risk data model (PostgreSQL)
 - Reproducible risk scoring logic (PostgreSQL)
-- Decision dashboards (Shiny)
+- Guided data entry and decision dashboards (Shiny/streamlit)
 - ML-ready feature design (future extension)
 
 👉 [How It Works (Simple Overview)](https://github.com/Euchie23/HSEQ_Risk_Intel/blob/main/HOW_IT_WORKS.md)
