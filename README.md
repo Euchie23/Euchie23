@@ -1,13 +1,33 @@
 # Hi, I’m Euchie 👋🌱
 
-> *“A stitch in time saves nine.”*  
-> I build **risk-aware, decision-support tools** that turn complex environmental, spatial, and safety data into **early warnings and defensible insights**.
+> I build **risk-aware decision-support systems** that turn complex environmental, spatial, and operational data into **defensible, decision-ready insights**.
 
-I'm an **interdisciplinary environmental scientist and applied data practitioner** with a foundation in business, which informs my structured, outcome-oriented approach to turning complex environmental, spatial, and safety data into actionable insights.<br><br>
-Trained academically in Asia and with hands-on experience in **regulated industrial environments**, my work sits at the intersection of **environmental science, spatial analytics, and applied risk intelligence**, with a focus on **monitoring, prioritization, and prevention**.<br><br>
+Interdisciplinary environmental data scientist and applied risk practitioner working across **environmental systems, spatial analytics, and operational risk (HSE)**.  
+Trained in Taiwan and currently based in Saint Lucia, with experience in **regulated and high-uncertainty environments**.
+<br><br>
 <img src="https://img.shields.io/badge/-Data%20Scientist-276DC3?&style=for-the-badge&logo=r&logoColor=white" />
 <img src="https://img.shields.io/badge/-Marine%20Ecology-0099cc?&style=for-the-badge&logo=fish&logoColor=white" />
 <img src="https://img.shields.io/badge/-Business%20Background-0072b1?&style=for-the-badge&logo=briefcase&logoColor=white" />
+
+---
+
+## 🚀 Featured Project — Biomass Simulator (Climate Risk Tool)
+
+Simulates how squid populations respond to ocean warming scenarios (+2°C default), supporting **fisheries risk assessment and climate-informed planning**.
+
+**What it does:**
+- Models biomass response under climate change scenarios  
+- Translates long-term fisheries data into predictive insight  
+- Supports early-stage ecological risk evaluation  
+
+🔗 [View App](https://squidstock-ocean-dynamics.streamlit.app)
+
+## 🧠 What I Build
+
+I design **decision-support systems under uncertainty**, where:
+- data must be validated before use  
+- uncertainty is explicit  
+- outputs support **real-world decisions**, not just analysis  
 
 ---
 
@@ -66,11 +86,14 @@ flowchart LR
     classDef bigFont font-size:16px, font-family:Arial, font-weight:bold;
     class A,B,C,D,E bigFont;
 ```
-*From raw data to defensible decisions in regulated and high-uncertainty environments.*
+*Turning environmental and operational data into **defensible, decision-ready risk intelligence**.*
 
 ---
+## 🧠 Decision Intelligence Systems
 
-## 🧭 Flagship Decision-Support Projects
+A collection of applied systems designed to support **decision-making under uncertainty** across environmental and operational risk contexts.
+
+## 🧩 Projects
 
 ## 🦑 SquidStack
 **Environmental Contaminants & Human Health Screening**  
@@ -90,6 +113,8 @@ Interactive **R Shiny dashboards** translating marine pollution data into **risk
 - 🤿 [Exploration](https://euchie23.shinyapps.io/exploration/) 
 - 📈 [Fluctuations](https://euchie23.shinyapps.io/fluctuation/) 
 - ☣️ [Risk Evaluation](https://euchie23.shinyapps.io/risk_evaluation/)
+
+Used for: screening environmental contamination and translating it into human health risk insights.
   
 ---
 
@@ -112,6 +137,8 @@ Includes:
 - 🌡️ [Biomass Simulation under Warming Scenarios](https://squidstock-ocean-dynamics.streamlit.app)
 - ⚙️ [Predictive Squid Catch Models using AutoML](https://squidstock-the-engine-room.streamlit.app)
 
+Used for: stock assessment, effort standardization, and forecasting under environmental and climate variability.
+
 ---
 
 ## 🌍 GeoTentacles 
@@ -133,26 +160,23 @@ Highlights:
 - [🗺️ **Hotspots — Historical and Predicted Squid Catch Hotspots**](<https://euchie23.shinyapps.io/geotentacles__hotspots/>)
 - [🌎 **Marine Scope - Your Window into Marine Ecosystem Health**](https://geotentacles-marinescope.streamlit.app)
 
+Used for: identifying ecological hotspots, pollution patterns, and spatial risk distribution in marine systems.
+
 ---
 
 ## 🦺 HSE–Q Risk Intelligence (Personal Project - In development)
 
-Alongside my current role as **Contracted HSE-Q Support** on a **regulated oil & gas infrastructure construction project**, I am building a **professional-grade HSE–Q risk intelligence system**.
+A **risk intelligence system for HSE-Q environments**, designed to structure field data into **traceable, decision-ready safety insights** in regulated industrial contexts.
 
-**System scope:**
-- PostgreSQL schema (DDL)
-- Reproducible risk scoring logic (SQL)
-- Shiny dashboard wireframes
-- ML-ready feature design (future)
-
-
-## 📖 How It Works (Simple Overview)
-
-For a clear, non-technical explanation of how the system operates in practice, see:
+**System components:**
+- Relational risk data model (PostgreSQL)
+- Reproducible risk scoring logic (PostgreSQL)
+- Decision dashboards (Shiny)
+- ML-ready feature design (future extension)
 
 👉 [How It Works (Simple Overview)](https://github.com/Euchie23/HSEQ_Risk_Intel/blob/main/HOW_IT_WORKS.md)
 
-
+Used for: structuring field data into audit-ready operational risk intelligence.
 
 ## 📌 Conceptual Risk Intelligence Model 
 
@@ -224,48 +248,30 @@ erDiagram
 [*More about HSE-Q Risk Intelligence*](https://github.com/Euchie23/HSEQ_Risk_Intel/)  
 
 ---
-
 ## ⚠️ Data Governance
 
-All repositories use simulated or pseudonymized data.
+All data is anonymized or simulated to ensure compliance with professional and ethical standards.
 
-Real operational data is delivered to clients through formal reporting channels to ensure confidentiality.
-
-### HSE Risk Intelligence Project — Specific Note
-
-The HSE Risk Intelligence framework is derived from authentic field observations and safety reports authored during routine site oversight. To maintain the highest standards of Information Security and Professional Ethics, the following protocols are applied:
-
-  - **Data Minimization & Pseudonymization:** All Personally Identifiable Information (PII), including worker names and certification identifiers, is pseudonymized at the ingestion layer.
-
-  - **Contextual Abstraction:** Site identifiers and company-specific markers are generalized to ensure corporate anonymity while preserving the High-Level Structure (HLS) of the safety data.
-
-  - **Technical Safeguards:** Sensitive operational identifiers—such as PTW, JSA, and permit sequences—are fully anonymized to prevent the reconstruction of specific site activities.
-
-  - **Integrity of Operational Logic:** The repository preserves the complex interaction between hazards, tasks, and controls to reflect real-world safety dynamics without exposing proprietary frameworks.
-
-  - **IP Protection:** Company-specific risk matrices, severity definitions, and probability classifications are not reproduced verbatim, ensuring that third-party intellectual property is respected and secured.
-
-This architecture demonstrates how real-world HSE intelligence can be ethically structured into a governed analytics system, ensuring that operational insights remain transparent while sensitive data remains protected.
+- Sensitive identifiers are pseudonymized at ingestion  
+- Site and organizational details are abstracted  
+- Operational structure is preserved without exposing proprietary information  
 
 ---
 
 ## 🛠 Technical Skills
 
 **Data & Analytics**
-- R, Python, SQL, PostgreSQL
-- QA/QC workflows, ETL pipelines
-- GAMs, Tweedie regressors, population models
-- Exploratory & applied ML (AutoML, validation-aware)
+- R, Python, SQL, PostgreSQL  
+- QA/QC workflows, ETL pipelines  
+- Statistical modeling, GAMs, applied ML  
 
-**Spatial**
-- PostGIS, QGIS, NetCDF integration
-- Spatio-temporal hotspot analysis
-- Probabilistic mapping & uncertainty communication
+**Spatial Systems**
+- PostGIS, QGIS, NetCDF  
+- Spatio-temporal analysis & hotspot modeling  
 
-**Dashboards**
-- R Shiny, Streamlit
-- Parameterized risk & exposure tools
-- Decision-focused visual design
+**Dashboards & Tools**
+- R Shiny, Streamlit  
+- Decision-focused data applications  
 
 ---
 
