@@ -201,17 +201,14 @@ erDiagram
     PERSON }o--|| ORGANIZATION : employed_by
     PERSON }o--o{ TEAM : assigned_to
 
+    PERSON ||--o{ ATTENDANCE : logs
+    ATTENDANCE }o--o{ TASK_EXECUTION : supports
+
+    TASK_EXECUTION ||--o{ TASK_CONDITIONS : has_conditions
+    TASK_CONDITIONS }o--|| TASK_CONDITION_TYPES : classified_by
+
     TASK_EXECUTION ||--o{ PTW : requires
     TASK_EXECUTION ||--o{ JSA : requires
-
-    PHASE ||--o{ METHOD_STATEMENT : defines
-    METHOD_STATEMENT ||--o{ JSA : produces
-
-    JSA ||--o{ JSA_CERTIFICATION : requires
-    JSA }o--|| JSA_SOURCE_TYPE : classified_by
-
-    PTW ||--o{ PTW_CERTIFICATION : requires
-    PTW }o--|| PTW_SOURCE_TYPE : classified_by
 
     TASK_EXECUTION ||--o{ OBSERVATION : may_link_to
     TASK_EXECUTION ||--o{ HAZARD : exposes
@@ -221,29 +218,28 @@ erDiagram
     OBSERVATION ||--o{ CORRECTIVE_ACTION : may_create
 
     HAZARD ||--o{ HAZARD_CONTROL : mitigated_by
-    HAZARD }o--|| SEVERITY_LEVELS : rated_by
-    SEVERITY_LEVELS ||--o{ RISK_MATRIX : defines
-    HAZARD }o--|| PROBABILITY_LEVELS : rated_by
-    PROBABILITY_LEVELS ||--o{ RISK_MATRIX : defines
-    HAZARD ||--o{ INCIDENT : may_result_in
+    HAZARD ||--o{ BOWTIE_THREAT : has_threats
+    HAZARD ||--o{ BOWTIE_CONSEQUENCE : has_consequences
 
     HAZARD_CONTROL }o--|| CONTROL : uses
     HAZARD_CONTROL }o--|| CONTROL_EFFECTIVENESS_SCALE : evaluated_by
-    HAZARD_CONTROL ||--o{ CORRECTIVE_ACTION : may_trigger
+
+    HAZARD }o--|| SEVERITY_LEVELS : rated_by
+    HAZARD }o--|| PROBABILITY_LEVELS : rated_by
 
     INCIDENT ||--o{ INTERVENTION : triggers
     INTERVENTION ||--o{ CORRECTIVE_ACTION : may_result_in
 
     TOOLBOX_MEETING ||--o{ TOOLBOX_MEETING_TASK : links
-    TOOLBOX_MEETING_TASK ||--o{ HAZARD : identifies
-    TOOLBOX_MEETING_TASK ||--o{ HAZARD_CONTROL : planned_controls
-
-    PERSON ||--o{ PERSON_CERTIFICATION : holds
-    PERSON ||--o{ ATTENDANCE : logs
-
-    ATTENDANCE }o--o{ TASK_EXECUTION : supports
 
     WEATHER ||--o{ TASK_EXECUTION : influences
+
+    TASK_EXECUTION ||--o{ DAILY_SUBMISSION : finalized_by
+
+    EMERGENCY_DRILLS ||--o{ EMERGENCY_DRILL_PARTICIPANTS : includes
+    PERSON ||--o{ EMERGENCY_DRILL_PARTICIPANTS : participates_in
+
+    DAILY_SUBMISSION ||--o{ ANALYTICS_DAILY_KPIS : generates
 ```
 
 📘 System Logic, Data Entry Rules, and Risk Calculation Methodology
