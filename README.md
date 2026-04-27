@@ -162,19 +162,25 @@ Used for: identifying ecological hotspots, pollution patterns, and spatial risk 
 
 ---
 
-## 🦺 HSE–Q Risk Intelligence (Personal Project - In development)
+## 🦺 HSE–Q Risk Intelligence (Personal Project - In Development)
 
-A **risk intelligence system for HSE-Q environments**, designed to structure field data into **traceable, decision-ready safety insights** in regulated industrial contexts.
+A **risk intelligence platform for HSE-Q environments**, designed to transform field data into **traceable, automated, and decision-ready safety intelligence** in regulated industrial operations.
 
-**System components:**
-- Relational risk data model (PostgreSQL)
-- Reproducible risk scoring logic (PostgreSQL)
-- Guided data entry and decision dashboards (Shiny/streamlit)
-- ML-ready feature design (future extension)
+**System Components:**
+
+- Relational risk data model (PostgreSQL)  
+- Event-driven automation engine (hazards, actions, validations)  
+- Advanced risk engine (conditions + controls + barrier integrity)  
+- Bowtie-based hazard modeling framework  
+- Scenario simulation engine (what-if risk analysis)  
+- Guided data entry application (Streamlit)  
+- KPI & analytics layer (leading + lagging indicators)  
+- AI-ready architecture for future natural language querying  
 
 👉 [How It Works (Simple Overview)](https://github.com/Euchie23/HSEQ_Risk_Intel/blob/main/HOW_IT_WORKS.md)
 
-Used for: structuring field data into audit-ready operational risk intelligence.
+**Purpose:**  
+To structure real-world safety data into **audit-ready, explainable, and predictive operational risk intelligence**.
 
 ## 📌 Conceptual Risk Intelligence Model 
 
