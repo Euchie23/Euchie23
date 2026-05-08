@@ -1,4 +1,4 @@
-#Euchie Jn Pierre — Environmental Data Scientist & Risk Intelligence Builder 👋🌱
+# Euchie Jn Pierre — Environmental Data Scientist & Risk Intelligence Builder 👋🌱
 
 > I build **risk-aware decision-support systems** that turn complex environmental, spatial, and operational data into **defensible, decision-ready insights**.
 
