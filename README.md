@@ -4,12 +4,12 @@
 
 Interdisciplinary environmental data scientist and applied risk practitioner working across **environmental systems, spatial analytics, and operational risk (HSE)**.  
 Trained in Taiwan and currently based in Saint Lucia, with experience in **regulated and high-uncertainty environments**.
+<br>
+[🌐 Portfolio Website — Environmental Data Science & HSE-Q Projects](https://euchie-portfolio.vercel.app)
 <br><br>
 <img src="https://img.shields.io/badge/-Data%20Scientist-276DC3?&style=for-the-badge&logo=r&logoColor=white" />
 <img src="https://img.shields.io/badge/-Marine%20Ecology-0099cc?&style=for-the-badge&logo=fish&logoColor=white" />
 <img src="https://img.shields.io/badge/-Business%20Background-0072b1?&style=for-the-badge&logo=briefcase&logoColor=white" />
-<br>
-[🌐 Portfolio Website — Environmental Data Science & HSE-Q Projects](https://euchie-portfolio.vercel.app)
 
 ---
 
