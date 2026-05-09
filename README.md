@@ -9,7 +9,7 @@ Trained in Taiwan and currently based in Saint Lucia, with experience in **regul
 <img src="https://img.shields.io/badge/-Marine%20Ecology-0099cc?&style=for-the-badge&logo=fish&logoColor=white" />
 <img src="https://img.shields.io/badge/-Business%20Background-0072b1?&style=for-the-badge&logo=briefcase&logoColor=white" />
 <br>
-🌐 Portfolio: https://euchie-portfolio.vercel.app
+[🌐 Portfolio Website — Environmental Data Science & HSE-Q Projects](https://euchie-portfolio.vercel.app)
 
 ---
 
