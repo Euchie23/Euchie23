@@ -115,6 +115,8 @@ Interactive **R Shiny dashboards** translating marine pollution data into **risk
 - ☣️ [Risk Evaluation](https://euchie23.shinyapps.io/risk_evaluation/)
 
 Used for: screening environmental contamination and translating it into human health risk insights.
+
+*🎥 Guided dashboard walkthroughs are available for selected applications within the repository and individual dashboard documentation.*
   
 ---
 
@@ -139,6 +141,8 @@ Includes:
 
 Used for: stock assessment, effort standardization, and forecasting under environmental and climate variability.
 
+*🎥 Guided dashboard walkthroughs are available for selected applications within the repository and individual dashboard documentation.*
+
 ---
 
 ## 🌍 GeoTentacles 
@@ -161,6 +165,8 @@ Highlights:
 - [🌎 **Marine Scope - Your Window into Marine Ecosystem Health**](https://geotentacles-marinescope.streamlit.app)
 
 Used for: identifying ecological hotspots, pollution patterns, and spatial risk distribution in marine systems.
+
+*🎥 Guided dashboard walkthroughs are available for selected applications within the repository and individual dashboard documentation.*
 
 ---
 
