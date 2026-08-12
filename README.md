@@ -1,6 +1,6 @@
 # Euchie Jn Pierre — Environmental Data Scientist & Risk Intelligence Builder 👋🌱
 
-> I build **risk-aware decision-support systems** that turn complex environmental, spatial, and operational data into **defensible, decision-ready insights**.
+> I build **data-driven decision-support systems** that turn complex environmental, spatial, and operational data into **defensible, decision-ready insights**.
 
 Interdisciplinary environmental data scientist and applied risk practitioner working across **environmental systems, spatial analytics, and operational risk (HSE)**.  
 Trained in Taiwan and currently based in Saint Lucia, with experience in **regulated and high-uncertainty environments**.
@@ -15,6 +15,8 @@ Trained in Taiwan and currently based in Saint Lucia, with experience in **regul
 
 ## 🚀 Featured Project — Biomass Simulator (Climate Risk Tool)
 
+**A scenario-based decision-support tool for evaluating how ocean warming assumptions may affect squid biomass and fisheries risk.**
+
 Simulates how squid populations respond to ocean warming scenarios (+2°C default), supporting **fisheries risk assessment and climate-informed planning**.
 
 **What it does:**
@@ -26,10 +28,12 @@ Simulates how squid populations respond to ocean warming scenarios (+2°C defaul
 
 ## 🧠 What I Build
 
-I design **decision-support systems under uncertainty**, where:
-- data must be validated before use  
-- uncertainty is explicit  
-- outputs support **real-world decisions**, not just analysis  
+I design **data-driven decision-support systems under uncertainty**, where:
+
+- data must be validated before use
+- uncertainty and model limitations are explicit
+- analytical workflows are traceable and reproducible
+- outputs support **real-world decisions**, not just analysis 
 
 ---
 
