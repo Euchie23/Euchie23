@@ -198,46 +198,50 @@ To structure real-world HSE-Q field data into **audit-ready, explainable, and op
 
 ## 📌 Conceptual Operational Risk Model 
 
-The platform connects everyday field activity with risk identification, response, follow-up, and management reporting.
+The platform connects field activity, risk identification, incident response, corrective action, verification, and management reporting into one traceable operational workflow.
 
 ```mermaid
 flowchart TB
 
-    subgraph FOUNDATION["1 · Operational Foundation"]
-        SITE["Site / Section / Zone"]
-        PEOPLE["Personnel / Teams / Organizations"]
-        PLAN["Planning\nPWP · PTW · JSA · Method Statements"]
+    subgraph F1["1 · Foundation"]
+        SITE["Site<br/>Section<br/>Zone"]
+        PEOPLE["People<br/>Teams<br/>Organizations"]
     end
 
-    subgraph OPERATIONS["2 · Field Operations"]
-        TOOLBOX["Toolbox & Preparedness"]
-        TASK["Task Execution"]
-        WEATHER["Weather / Conditions"]
+    subgraph F2["2 · Planning & Field Operations"]
+        PLAN["PWP · PTW<br/>JSA · Method Statements"]
+        TOOLBOX["Toolbox<br/>& Preparedness"]
+        TASK["Task<br/>Execution"]
+        WEATHER["Weather<br/>& Conditions"]
 
         PLAN --> TASK
-        PEOPLE --> TASK
         TOOLBOX --> TASK
         WEATHER --> TASK
     end
 
-    subgraph RISK["3 · Risk & Assurance"]
+    subgraph F3["3 · Risk Detection"]
         OBS["Observation"]
         HAZ["Hazard"]
-        HCTRL["Hazard Controls"]
-        INC["Incident / Event"]
-        ICTRL["Incident Controls"]
-        CA["Corrective Action"]
-        VERIFY["Verification / Closure"]
+        HCTRL["Hazard<br/>Controls"]
 
         TASK --> OBS
         TASK --> HAZ
-        TASK --> INC
-
         OBS --> HAZ
-        OBS --> INC
-
         HAZ --> HCTRL
+    end
+
+    subgraph F4["4 · Incident Response"]
+        INC["Incident<br/>or Event"]
+        ICTRL["Incident<br/>Controls"]
+
+        TASK --> INC
+        OBS --> INC
         INC --> ICTRL
+    end
+
+    subgraph F5["5 · Follow-Up & Assurance"]
+        CA["Corrective<br/>Action"]
+        VERIFY["Verification<br/>& Closure"]
 
         OBS --> CA
         HAZ --> CA
@@ -249,21 +253,24 @@ flowchart TB
         ICTRL --> VERIFY
     end
 
-    subgraph REPORTING["4 · Confirmation & Management Intelligence"]
-        DRILL["Emergency Preparedness / Drills"]
-        REPORT["Confirmed Daily Management Record"]
-        ANALYTICS["Operational Analytics / Management Review"]
+    subgraph F6["6 · Confirmation & Management"]
+        DRILL["Emergency<br/>Drills"]
+        CONFIRM["Daily Confirm<br/>& Freeze"]
+        REPORT["Management<br/>Report"]
+        ANALYTICS["Operational<br/>Analytics"]
 
-        VERIFY --> REPORT
-        DRILL --> REPORT
+        VERIFY --> CONFIRM
+        DRILL --> CONFIRM
+        CONFIRM --> REPORT
         REPORT --> ANALYTICS
     end
 
     SITE --> PLAN
     SITE --> TOOLBOX
-    SITE --> TASK
+    PEOPLE --> TASK
     SITE --> DRILL
 ```
+*Conceptual view only — the repository contains the detailed physical database model and full table relationships.*
 
 📘 System workflows, rules, and implementation notes are documented in the
 
