@@ -176,90 +176,101 @@ Used for: identifying ecological hotspots, pollution patterns, and spatial risk 
 
 ## 🦺 HSE–Q Risk Intelligence (Personal Project - In Development)
 
-A **risk intelligence platform for HSE-Q environments**, designed to transform field data into **traceable, automated, and decision-ready safety intelligence** in regulated industrial operations.
+**A decision-support platform for HSE-Q operational environments**, designed to turn field activities, safety observations, incidents, emergency drills, and daily reporting into **structured, traceable, and management-ready operational intelligence**.
 
-**System Components:**
+**Current System Components:**
 
-- Relational risk data model (PostgreSQL)  
-- Event-driven automation engine (hazards, actions, validations)  
-- Advanced risk engine (conditions + controls + barrier integrity)  
-- Bowtie-based hazard modeling framework  
-- Scenario simulation engine (what-if risk analysis)  
-- Guided data entry application (Streamlit)  
-- KPI & analytics layer (leading + lagging indicators)  
-- AI-ready architecture for future natural language querying  
-
+- Relational operational data model (PostgreSQL)
+- Guided field data-entry application (Streamlit)
+- Daily operations workflow with controlled end-of-day confirmation
+- Planning records (PWP, PTW, JSA, Method Statements)
+- Personnel, team, zone, and site setup management
+- Observations, hazards, controls, and corrective-action workflows
+- Incident / event recording and lifecycle handling
+- Emergency drill tracking and report generation
+- Daily management report snapshots and operational traceability 
+- KPI / analytics-ready architecture for future dashboard expansion
+  
 👉 [How It Works (Simple Overview)](https://github.com/Euchie23/HSEQ_Risk_Intel/blob/main/HOW_IT_WORKS.md)
 
 **Purpose:**  
-To structure real-world safety data into **audit-ready, explainable, and predictive operational risk intelligence**.
+To structure real-world HSE-Q field data into **audit-ready, explainable, and operationally useful decision-support records for regulated and safety-sensitive work environments**.
 
-## 📌 Conceptual Risk Intelligence Model 
+## 📌 Conceptual Operational Model 
 
 Below is a high-level, operational risk intelligence ERD diagram showing how risk information flows through the system.
 
 ```mermaid
 erDiagram
 
-    SITE ||--o{ ZONE : contains
-    ZONE ||--o{ PHASE : includes
+    SITE ||--o{ SITE_SECTION : contains
+    SITE_SECTION ||--o{ ZONE : governs
+    ZONE ||--o{ PHASE : supports
 
-    PHASE ||--o{ TASK : defines
-    TASK ||--o{ TASK_EXECUTION : instantiated_as
+    ORGANIZATION ||--o{ PERSON : employs
+    ORGANIZATION ||--o{ TEAM : owns
+    PERSON ||--o{ TEAM : supervises_or_joins
 
-    TASK_EXECUTION }o--|| TEAM : executed_by
-    TEAM }o--|| ORGANIZATION : owned_by
+    SITE_SECTION ||--o{ ATTENDANCE_SHIFT : records
+    ATTENDANCE_SHIFT ||--o{ ATTENDANCE_PERSONNEL : includes
+    PERSON ||--o{ ATTENDANCE_PERSONNEL : attends
 
-    PERSON }o--|| ORGANIZATION : employed_by
-    PERSON }o--o{ TEAM : assigned_to
+    PHASE ||--o{ TASK_TEMPLATE : defines
+    TASK_TEMPLATE ||--o{ TASK_EXECUTION : instantiated_as
+    TEAM ||--o{ TASK_EXECUTION : performs
+    WEATHER ||--o{ TASK_EXECUTION : influences
 
-    PERSON ||--o{ ATTENDANCE : logs
-    ATTENDANCE }o--o{ TASK_EXECUTION : supports
+    SITE_SECTION ||--o{ PLANNED_WORK_PACKAGE : manages
+    PLANNED_WORK_PACKAGE ||--o{ PTW : links
+    PLANNED_WORK_PACKAGE ||--o{ JSA : links
+    PLANNED_WORK_PACKAGE ||--o{ METHOD_STATEMENT : links
+    PLANNED_WORK_PACKAGE ||--o{ TASK_EXECUTION : guides
 
-    TASK_EXECUTION ||--o{ TASK_CONDITIONS : has_conditions
-    TASK_CONDITIONS }o--|| TASK_CONDITION_TYPES : classified_by
+    TOOLBOX_MEETING ||--o{ TOOLBOX_ATTENDEES : includes
+    TOOLBOX_MEETING ||--o{ TOOLBOX_MEETING_TOPICS : covers
+    TOOLBOX_MEETING ||--o{ TOOLBOX_MEETING_TASKS : references
 
-    TASK_EXECUTION ||--o{ PTW : requires
-    TASK_EXECUTION ||--o{ JSA : requires
-
-    TASK_EXECUTION ||--o{ OBSERVATION : may_link_to
-    TASK_EXECUTION ||--o{ HAZARD : exposes
-    TASK_EXECUTION ||--o{ INCIDENT : leads_to
-
+    OBSERVATION ||--o{ OBSERVATION_ZONES : affects
     OBSERVATION ||--o{ HAZARD : may_generate
     OBSERVATION ||--o{ CORRECTIVE_ACTION : may_create
 
-    HAZARD ||--o{ HAZARD_CONTROL : mitigated_by
-    HAZARD ||--o{ BOWTIE_THREAT : has_threats
-    HAZARD ||--o{ BOWTIE_CONSEQUENCE : has_consequences
+    HAZARD ||--o{ HAZARD_CONTROLS : mitigated_by
+    HAZARD ||--o{ CORRECTIVE_ACTION : may_require
 
-    HAZARD_CONTROL }o--|| CONTROL : uses
-    HAZARD_CONTROL }o--|| CONTROL_EFFECTIVENESS_SCALE : evaluated_by
+    INCIDENT ||--o{ INCIDENT_PEOPLE : involves
+    INCIDENT ||--o{ INCIDENT_TASK_LINKS : relates_to
+    INCIDENT ||--o{ INCIDENT_OBSERVATION_LINKS : relates_to
+    INCIDENT ||--o{ INCIDENT_STATUS_HISTORY : tracks
 
-    HAZARD }o--|| SEVERITY_LEVELS : rated_by
-    HAZARD }o--|| PROBABILITY_LEVELS : rated_by
+    EMERGENCY_DRILL ||--o{ EMERGENCY_DRILL_PARTICIPANTS : includes
+    EMERGENCY_DRILL ||--o{ EMERGENCY_DRILL_TASK_LINKS : relates_to
+    EMERGENCY_DRILL ||--o{ EMERGENCY_DRILL_INCIDENT_LINKS : relates_to
+    EMERGENCY_DRILL ||--o{ EMERGENCY_DRILL_OBSERVATION_LINKS : relates_to
+    EMERGENCY_DRILL ||--o{ EMERGENCY_DRILL_CORRECTIVE_ACTION_LINKS : relates_to
 
-    INCIDENT ||--o{ INTERVENTION : triggers
-    INTERVENTION ||--o{ CORRECTIVE_ACTION : may_result_in
+    DAILY_CONFIRMATION_BATCH ||--o{ DAILY_CONFIRMATION_EMERGENCY_DRILLS : includes
+    DAILY_CONFIRMATION_BATCH ||--|| DAILY_MANAGEMENT_REPORT_SNAPSHOT : freezes
 
-    TOOLBOX_MEETING ||--o{ TOOLBOX_MEETING_TASK : links
-
-    WEATHER ||--o{ TASK_EXECUTION : influences
-
-    TASK_EXECUTION ||--o{ DAILY_SUBMISSION : finalized_by
-
-    EMERGENCY_DRILLS ||--o{ EMERGENCY_DRILL_PARTICIPANTS : includes
-    PERSON ||--o{ EMERGENCY_DRILL_PARTICIPANTS : participates_in
-
-    DAILY_SUBMISSION ||--o{ ANALYTICS_DAILY_KPIS : generates
+    APP_USER ||--o{ APPROVAL_REQUESTS : submits
 ```
 
-📘 System Logic, Data Entry Rules, and Risk Calculation Methodology
+📘 System workflows, rules, and implementation notes are documented in the
 *(See [Database Operations Manual](https://github.com/Euchie23/HSEQ_Risk_Intel/blob/main/docs/Database_Operations_Manual.md) for full implementation guide)*
 
 [*More about HSE-Q Risk Intelligence*](https://github.com/Euchie23/HSEQ_Risk_Intel/)  
 
 ---
+
+## 🔭 Planned Version 2 Directions
+Future extensions I would like to explore include:
+- Bowtie-style hazard visualization
+- Barrier / control integrity intelligence
+- Scenario and preparedness simulation
+- richer analytics and management dashboards
+- smarter decision-support and natural-language querying
+> These are not yet part of the current Version 1 baseline, but represent the next stage of development I want to test against real operational data. 
+---
+
 ## ⚠️ Data Governance
 
 All data is anonymized or simulated to ensure compliance with professional and ethical standards.
