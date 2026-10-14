@@ -255,6 +255,7 @@ erDiagram
 ```
 
 📘 System workflows, rules, and implementation notes are documented in the
+
 *(See [Database Operations Manual](https://github.com/Euchie23/HSEQ_Risk_Intel/blob/main/docs/Database_Operations_Manual.md) for full implementation guide)*
 
 [*More about HSE-Q Risk Intelligence*](https://github.com/Euchie23/HSEQ_Risk_Intel/)  
