@@ -196,62 +196,73 @@ Used for: identifying ecological hotspots, pollution patterns, and spatial risk 
 **Purpose:**  
 To structure real-world HSE-Q field data into **audit-ready, explainable, and operationally useful decision-support records for regulated and safety-sensitive work environments**.
 
-## 📌 Conceptual Operational Model 
+## 📌 Conceptual Operational Risk Model 
 
-Below is a high-level conceptual ERD showing how the main operational parts of the system connect.
+The platform connects everyday field activity with risk identification, response, follow-up, and management reporting.
 
 ```mermaid
-erDiagram
+flowchart TB
 
-    SITE ||--o{ SITE_SECTION : contains
-    SITE_SECTION ||--o{ ZONE : governs
-    ZONE ||--o{ PHASE : supports
+    subgraph FOUNDATION["1 · Operational Foundation"]
+        SITE["Site / Section / Zone"]
+        PEOPLE["Personnel / Teams / Organizations"]
+        PLAN["Planning\nPWP · PTW · JSA · Method Statements"]
+    end
 
-    ORGANIZATION ||--o{ PERSON : employs
-    ORGANIZATION ||--o{ TEAM : owns
-    PERSON ||--o{ TEAM : supervises_or_joins
+    subgraph OPERATIONS["2 · Field Operations"]
+        TOOLBOX["Toolbox & Preparedness"]
+        TASK["Task Execution"]
+        WEATHER["Weather / Conditions"]
 
-    SITE_SECTION ||--o{ ATTENDANCE_SHIFT : records
-    ATTENDANCE_SHIFT ||--o{ ATTENDANCE_PERSONNEL : includes
-    PERSON ||--o{ ATTENDANCE_PERSONNEL : attends
+        PLAN --> TASK
+        PEOPLE --> TASK
+        TOOLBOX --> TASK
+        WEATHER --> TASK
+    end
 
-    PHASE ||--o{ TASK_TEMPLATE : defines
-    TASK_TEMPLATE ||--o{ TASK_EXECUTION : instantiated_as
-    TEAM ||--o{ TASK_EXECUTION : performs
-    WEATHER ||--o{ TASK_EXECUTION : influences
+    subgraph RISK["3 · Risk & Assurance"]
+        OBS["Observation"]
+        HAZ["Hazard"]
+        HCTRL["Hazard Controls"]
+        INC["Incident / Event"]
+        ICTRL["Incident Controls"]
+        CA["Corrective Action"]
+        VERIFY["Verification / Closure"]
 
-    SITE_SECTION ||--o{ PLANNED_WORK_PACKAGE : manages
-    PLANNED_WORK_PACKAGE ||--o{ PTW : links
-    PLANNED_WORK_PACKAGE ||--o{ JSA : links
-    PLANNED_WORK_PACKAGE ||--o{ METHOD_STATEMENT : links
-    PLANNED_WORK_PACKAGE ||--o{ TASK_EXECUTION : guides
+        TASK --> OBS
+        TASK --> HAZ
+        TASK --> INC
 
-    TOOLBOX_MEETING ||--o{ TOOLBOX_ATTENDEES : includes
-    TOOLBOX_MEETING ||--o{ TOOLBOX_MEETING_TOPICS : covers
-    TOOLBOX_MEETING ||--o{ TOOLBOX_MEETING_TASKS : references
+        OBS --> HAZ
+        OBS --> INC
 
-    OBSERVATION ||--o{ OBSERVATION_ZONES : affects
-    OBSERVATION ||--o{ HAZARD : may_generate
-    OBSERVATION ||--o{ CORRECTIVE_ACTION : may_create
+        HAZ --> HCTRL
+        INC --> ICTRL
 
-    HAZARD ||--o{ HAZARD_CONTROLS : mitigated_by
-    HAZARD ||--o{ CORRECTIVE_ACTION : may_require
+        OBS --> CA
+        HAZ --> CA
+        HCTRL --> CA
+        INC --> CA
 
-    INCIDENT ||--o{ INCIDENT_PEOPLE : involves
-    INCIDENT ||--o{ INCIDENT_TASK_LINKS : relates_to
-    INCIDENT ||--o{ INCIDENT_OBSERVATION_LINKS : relates_to
-    INCIDENT ||--o{ INCIDENT_STATUS_HISTORY : tracks
+        CA --> VERIFY
+        HCTRL --> VERIFY
+        ICTRL --> VERIFY
+    end
 
-    EMERGENCY_DRILL ||--o{ EMERGENCY_DRILL_PARTICIPANTS : includes
-    EMERGENCY_DRILL ||--o{ EMERGENCY_DRILL_TASK_LINKS : relates_to
-    EMERGENCY_DRILL ||--o{ EMERGENCY_DRILL_INCIDENT_LINKS : relates_to
-    EMERGENCY_DRILL ||--o{ EMERGENCY_DRILL_OBSERVATION_LINKS : relates_to
-    EMERGENCY_DRILL ||--o{ EMERGENCY_DRILL_CORRECTIVE_ACTION_LINKS : relates_to
+    subgraph REPORTING["4 · Confirmation & Management Intelligence"]
+        DRILL["Emergency Preparedness / Drills"]
+        REPORT["Confirmed Daily Management Record"]
+        ANALYTICS["Operational Analytics / Management Review"]
 
-    DAILY_CONFIRMATION_BATCH ||--o{ DAILY_CONFIRMATION_EMERGENCY_DRILLS : includes
-    DAILY_CONFIRMATION_BATCH ||--|| DAILY_MANAGEMENT_REPORT_SNAPSHOT : freezes
+        VERIFY --> REPORT
+        DRILL --> REPORT
+        REPORT --> ANALYTICS
+    end
 
-    APP_USER ||--o{ APPROVAL_REQUESTS : submits
+    SITE --> PLAN
+    SITE --> TOOLBOX
+    SITE --> TASK
+    SITE --> DRILL
 ```
 
 📘 System workflows, rules, and implementation notes are documented in the
