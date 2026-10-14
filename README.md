@@ -198,7 +198,7 @@ To structure real-world HSE-Q field data into **audit-ready, explainable, and op
 
 ## 📌 Conceptual Operational Model 
 
-Below is a high-level, operational risk intelligence ERD diagram showing how risk information flows through the system.
+Below is a high-level conceptual ERD showing how the main operational parts of the system connect.
 
 ```mermaid
 erDiagram
