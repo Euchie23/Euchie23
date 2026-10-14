@@ -255,9 +255,9 @@ flowchart TB
 
     subgraph F6["6 · Confirmation & Management"]
         DRILL["Emergency<br/>Drills"]
-        CONFIRM["Daily Confirm<br/>& Freeze"]
+        CONFIRM["Daily Close<br/>& Confirmation"]
         REPORT["Management<br/>Report"]
-        ANALYTICS["Operational<br/>Analytics"]
+        ANALYTICS["Analytics-Ready<br/>Outputs"]
 
         VERIFY --> CONFIRM
         DRILL --> CONFIRM
