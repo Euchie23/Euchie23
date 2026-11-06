@@ -1,9 +1,10 @@
-# Euchie Jn Pierre — Environmental Data Analyst & Risk Intelligence Builder 👋🌱
+# Euchie Jn Pierre — Environmental Data Analyst & Decision-Support Application Builder👋🌱
 
-> I build **data-driven decision-support systems** that turn complex environmental, spatial, and operational data into **defensible, decision-ready insights**.
+> I develop **data-driven analytical applications** that transform complex environmental, spatial, and operational data into **structured insights for risk assessment, planning, and informed decision-making**.
+ 
+My project work explores the intersection of **environmental data analysis, geospatial intelligence, and operational HSE**. Through practical applications, analytical workflows, and interactive dashboards, I explore how data engineering, statistical analysis, and spatial methods can support real-world decision-making.
 
-Interdisciplinary environmental data analyst and applied risk practitioner working across **environmental systems, spatial analytics, and operational risk (HSE)**.  
-Trained in Taiwan and currently based in Saint Lucia, with experience in **regulated and high-uncertainty environments**.
+Trained in Taiwan and currently based in Saint Lucia, I bring an interdisciplinary perspective shaped by **cross-cultural experience and exposure to regulated and complex operational environments**.
 <br>
 [🌐 Portfolio Website — Environmental Data Analysis & HSE-Q Projects](https://euchie-portfolio.vercel.app)
 <br><br>
